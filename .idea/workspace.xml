@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/l_day01_maven_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day01_maven_01/src/main/java/com/javaee/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day01_maven_02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day01_maven_02/src/main/java/com/javase/Main.java" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day01 maven">
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/CalculatorPureImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/CalculatorStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/ProxyFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_first/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,26 +52,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/be_encode/javaEE/x_sprint6&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.43146273&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;bafecb2ccfa3155520be7526d20e7d10&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "F:/be_encode/javaEE/javawebTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43146273",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "bafecb2ccfa3155520be7526d20e7d10",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaee.Main" />
@@ -177,8 +179,17 @@
       <workItem from="1714975752970" duration="4647000" />
       <workItem from="1714980418439" duration="685000" />
       <workItem from="1714981211690" duration="1606000" />
-      <workItem from="1714982872834" duration="2085000" />
+      <workItem from="1714982872834" duration="2347000" />
+      <workItem from="1714995964438" duration="2265000" />
     </task>
+    <task id="LOCAL-00001" summary="day01 maven">
+      <created>1714990043900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714990043900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,5 +205,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day01 maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="day01 maven" />
   </component>
 </project>

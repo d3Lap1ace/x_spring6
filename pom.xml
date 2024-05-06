@@ -28,6 +28,7 @@
         <module>spring6-ioc-xml</module>
         <module>l_day01_maven_01</module>
         <module>l_day01_maven_02</module>
+        <module>spring-aop-annotation</module>
     </modules>
 
     <properties>
@@ -61,6 +62,17 @@
             <artifactId>log4j-slf4j2-impl</artifactId>
             <version>2.19.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>6.0.6</version>
+            <scope>test</scope>
+        </dependency>
 
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
     </dependencies>
 </project>
