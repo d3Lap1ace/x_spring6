@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring_first" />
+        <module name="spring6-ioc-xml" />
+        <module name="l_day01_maven_02" />
+        <module name="l_day01_maven_01" />
       </profile>
     </annotationProcessing>
   </component>
