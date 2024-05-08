@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day01 maven">
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/src/main/java/com/javaEE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/src/main/java/com/javaEE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/src/main/java/com/javaEE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_maven_01/src/main/java/com/javaEE/ioc1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc1/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc4/FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc1/SpringIocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day01_maven_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day01_maven_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_maven_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/bean/TestUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc2/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/di/Clazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc3/Clazz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/di/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/di/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc3/TestStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/resources/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_first.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_first/src/main/java/com/javaEE/spring6/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc2/TestUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_first/src/main/java/com/javaEE/spring6/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_first/src/main/java/com/javaEE/ioc2/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_first/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_first/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_first/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/log4j2.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/develoment_dvies/apache-maven-3.8.8" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2fwUYCQAmg2fTEfnWVb7buFgFtk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_sprint6/l_day02_spring_ioc_xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43146273",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "40e138d67819fd9a6cfbe7ea46bbdea5",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\be_encode\javaEE\x_sprint6\l_day02_spring_ioc_xml\src\main\resources" />
+      <recent name="F:\be_encode\javaEE\x_sprint6\x_day02_micro_shop" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.javaEE.ioc1" />
+      <recent name="com.javaEE.ioc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Junit-test" type="JUnit" factoryName="JUnit">
+      <module name="l_day02_spring_ioc_xml" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.javaEE.ioc3" />
+      <option name="MAIN_CLASS_NAME" value="com.javaEE.ioc3.TestStudent" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="" />
+      <created>1714711680121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714711680121</updated>
+      <workItem from="1714711681272" duration="6342000" />
+      <workItem from="1714721582009" duration="62000" />
+      <workItem from="1714955174908" duration="160000" />
+      <workItem from="1714958486297" duration="5505000" />
+      <workItem from="1714975752970" duration="4647000" />
+      <workItem from="1714980418439" duration="685000" />
+      <workItem from="1714981211690" duration="1606000" />
+      <workItem from="1714982872834" duration="2347000" />
+      <workItem from="1714995964438" duration="2265000" />
+      <workItem from="1715001792351" duration="93000" />
+      <workItem from="1715042022939" duration="842000" />
+      <workItem from="1715051848142" duration="5152000" />
+      <workItem from="1715061090555" duration="4011000" />
+      <workItem from="1715070143151" duration="456000" />
+      <workItem from="1715070610665" duration="9451000" />
+      <workItem from="1715085217137" duration="27000" />
+      <workItem from="1715085246732" duration="91000" />
+      <workItem from="1715085340727" duration="113000" />
+      <workItem from="1715085456469" duration="7000" />
+      <workItem from="1715085483353" duration="480000" />
+      <workItem from="1715128446817" duration="6461000" />
+    </task>
+    <task id="LOCAL-00001" summary="day01 maven">
+      <created>1714990043900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714990043900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day01 maven">
+      <created>1715001807099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715001807099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day01 maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="day01 maven" />
+  </component>
+</project>
