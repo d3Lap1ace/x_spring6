@@ -4,47 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day01 maven">
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/src/main/java/com/javaEE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/src/main/java/com/javaEE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/src/main/java/com/javaEE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_maven_01/src/main/java/com/javaEE/ioc1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc1/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc4/FactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_03.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc1/SpringIocTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day01_maven_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day01_maven_01/pom.xml" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day02 spring">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc4/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc4/UserDaoFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc5/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc6/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc6/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc6/SaasIdBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc6/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/java/com/javaee/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/java/com/javaee/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/java/com/javaee/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/java/com/javaee/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/java/com/javaee/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/java/com/javaee/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/test/java/com/javaee/ioc/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_01/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_01/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_02/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/resources/spring_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/resources/spring_02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/resources/spring_03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/test/java/com/javaee/test/SpringIoCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_ioc_autowired/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/order_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/order_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/user_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/user_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day01_maven_01/l_day01_maven_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day01_maven_01/l_day01_maven_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day01_maven_02/l_day01_maven_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day01_maven_02/l_day01_maven_02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/common_service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_homekwork_meven_01/l_day02_homekwork_meven_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/order_service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/user_service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_maven_01/l_day02_maven_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_maven_01/l_day02_maven_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/l_day02_spring_ioc_xml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc4/FactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/com/javaEE/ioc4/FactoryBean.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_maven_01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/bean/TestUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc2/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/di/Clazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc3/Clazz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/di/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/java/com/javaee/spring6/iocxml/di/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc3/TestStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-ioc-xml/src/main/resources/bean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/src/main/java/com/javaEE/spring6/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc2/TestUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/src/main/java/com/javaEE/spring6/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_first/src/main/java/com/javaEE/ioc2/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_first/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/spring-aop-annotation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_first/spring_first.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring6.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +104,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,9 +136,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/be_encode/javaEE/x_sprint6/l_day02_spring_ioc_xml",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_sprint6/l_day03_homework_spring_ioc_xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,6 +154,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\be_encode\javaEE\x_sprint6\l_day03_homework_spring_ioc_xml\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\be_encode\javaEE\x_sprint6\l_day02_spring_ioc_xml\src\main\resources" />
       <recent name="F:\be_encode\javaEE\x_sprint6\x_day02_micro_shop" />
@@ -112,7 +166,7 @@
       <recent name="com.javaEE.ioc" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SpringTest.test01">
     <configuration name="Junit-test" type="JUnit" factoryName="JUnit">
       <module name="l_day02_spring_ioc_xml" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -125,6 +179,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringIoCTest.test_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day03_spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.test" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.test.SpringIoCTest" />
+      <option name="METHOD_NAME" value="test_01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringIoCTest.test_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day03_spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.test" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.test.SpringIoCTest" />
+      <option name="METHOD_NAME" value="test_02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringIoCTest.test_03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day03_spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.test" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.test.SpringIoCTest" />
+      <option name="METHOD_NAME" value="test_03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day03_homework_spring_ioc_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.ioc" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.ioc.SpringTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day02_spring_ioc_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaEE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaEE" />
+      <option name="MAIN_CLASS_NAME" value="com.javaEE.SpringTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Junit-test" />
+      <item itemvalue="JUnit.SpringIoCTest.test_01" />
+      <item itemvalue="JUnit.SpringIoCTest.test_02" />
+      <item itemvalue="JUnit.SpringIoCTest.test_03" />
+      <item itemvalue="JUnit.SpringTest.test01" />
+      <item itemvalue="JUnit.SpringTest.test03" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringTest.test01" />
+        <item itemvalue="JUnit.SpringIoCTest.test_03" />
+        <item itemvalue="JUnit.SpringIoCTest.test_02" />
+        <item itemvalue="JUnit.SpringIoCTest.test_01" />
+        <item itemvalue="JUnit.SpringTest.test03" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,7 +305,7 @@
       <workItem from="1715085340727" duration="113000" />
       <workItem from="1715085456469" duration="7000" />
       <workItem from="1715085483353" duration="480000" />
-      <workItem from="1715128446817" duration="6461000" />
+      <workItem from="1715128446817" duration="26237000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -170,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715001807099</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day02 spring">
+      <created>1715140104187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715140104187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day02 spring">
+      <created>1715140122157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715140122157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +354,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day01 maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="day01 maven" />
+    <MESSAGE value="day02 spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="day02 spring" />
   </component>
 </project>

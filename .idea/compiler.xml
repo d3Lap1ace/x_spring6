@@ -9,26 +9,18 @@
         <module name="spring_first" />
         <module name="user_service" />
         <module name="order_service" />
+        <module name="l_day03_homework_spring_ioc_xml" />
         <module name="l_day02_maven_01" />
+        <module name="l_day03_spring_ioc_annotation" />
         <module name="spring-aop-annotation" />
         <module name="common_service" />
+        <module name="x_spring_ioc_autowired" />
         <module name="l_day01_maven_02" />
         <module name="l_day01_maven_01" />
         <module name="l_day02_spring_ioc_xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common_service" target="17" />
-      <module name="l_day01_maven_01" target="17" />
-      <module name="l_day01_maven_02" target="17" />
-      <module name="l_day02_homekwork_meven_01" target="17" />
-      <module name="l_day02_maven_01" target="17" />
-      <module name="l_day02_spring_ioc_xml" target="17" />
-      <module name="order_service" target="17" />
-      <module name="spring-aop-annotation" target="17" />
-      <module name="spring_first" target="17" />
-      <module name="user_service" target="17" />
-      <module name="x_spring6" target="17" />
       <module name="x_sprint6" target="17" />
     </bytecodeTargetLevel>
   </component>

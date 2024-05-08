@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+   class -> factoryBean -> ioc容器检查到你是factoryBean -> getObject() 对象 -> ioc容器
+   id -> ioc容器会自动给 -> getObject方法返回的对象作为标识
+   细节: UserDaoFactoryBean会不会被加载到ioc容器呢?
+        1.
+         也会加到ioc容器! <bean 除了id属性,其他都是真的在设置UserDaoFactoryBean相关配置!
+          <property name=""
+       2. factoryBean = & + id值 (spring规定了)
+-->
+    <bean id="userDao" class="com.javaEE.ioc4.UserDaoFactoryBean">
+        <property name="ergouzi" value="xxx.properties"></property>
+    </bean>
+
+    <bean id="userDao1" class="com.javaEE.ioc5.UserDao" scope="prototype"/>
+
+    <bean id="order" class="com.javaEE.ioc6.Order" init-method="init">
+        <property name="name" value="银河系漫游指南"></property>
+        <property name="price" value="168"></property>
+    </bean>
+
+    <bean class="com.javaEE.ioc6.MyBeanPostProcessor"></bean>
+    <bean class="com.javaEE.ioc6.SaasIdBeanFactoryPostProcessor"></bean>
+</beans>

@@ -30,6 +30,9 @@
         <module>spring-aop-annotation</module>
         <module>l_day02_maven_01</module>
         <module>l_day02_spring_ioc_xml</module>
+        <module>l_day03_spring_ioc_annotation</module>
+        <module>l_day03_homework_spring_ioc_xml</module>
+        <module>x_spring_ioc_autowired</module>
     </modules>
 
     <properties>
