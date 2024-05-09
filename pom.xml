@@ -33,6 +33,7 @@
         <module>l_day03_spring_ioc_annotation</module>
         <module>l_day03_homework_spring_ioc_xml</module>
         <module>x_spring_ioc_autowired</module>
+        <module>l_day04_spring_aop_01</module>
     </modules>
 
     <properties>
