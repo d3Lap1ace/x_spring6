@@ -18,26 +18,26 @@ import java.util.Arrays;
 @Aspect
 @Component
 public class LogAspect {
-    @Before("execution(public int com.javaee.CalculatorImpl.*(..))")
+    @Before("execution(public int com.javaee.Calculator.impl.CalculatorImpl.*(..))")
     public void beforeMethod(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().getName();
         String args = Arrays.toString(joinPoint.getArgs());
         System.out.println("Logger-->前置通知，方法名："+methodName+"，参数："+args);
     }
 
-    @After("execution(* com.javaee.CalculatorImpl.*(..))")
+    @After("execution(* com.javaee.Calculator.impl.CalculatorImpl.*(..))")
     public void afterMethod(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Logger-->后置通知，方法名："+methodName);
     }
 
-    @AfterReturning(value = "execution(* com.javaee.CalculatorImpl.*(..))", returning = "result")
+    @AfterReturning(value = "execution(* com.javaee.Calculator.impl.CalculatorImpl.*(..))", returning = "result")
     public void afterReturningMethod(JoinPoint joinPoint, Object result){
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Logger-->返回通知，方法名："+methodName+"，结果："+result);
     }
 
-    @AfterThrowing(value = "execution(* com.javaee.CalculatorImpl.*(..))", throwing = "ex")
+    @AfterThrowing(value = "execution(* com.javaee.Calculator.impl.CalculatorImpl.*(..))", throwing = "ex")
     public void afterThrowingMethod(JoinPoint joinPoint, Throwable ex){
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Logger-->异常通知，方法名："+methodName+"，异常："+ex);

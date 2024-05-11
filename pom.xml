@@ -34,10 +34,9 @@
         <module>l_day04_spring_aop_01</module>
         <module>x_spring_02_ioc_annotation</module>
         <module>x_spring_03_aop_annotation</module>
+        <module>l_day05_spring_tx</module>
         <module>x_spring_04_tx</module>
-
     </modules>
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

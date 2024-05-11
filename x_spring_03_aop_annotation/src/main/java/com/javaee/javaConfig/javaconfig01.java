@@ -16,6 +16,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @ComponentScan("com.javaee")
-
+@EnableAspectJAutoProxy
 public class javaconfig01 {
 }

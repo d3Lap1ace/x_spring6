@@ -1,5 +1,6 @@
-package com.javaee;
+package com.javaee.Calculator.impl;
 
+import com.javaee.Calculator.Calculator;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Component;
  */
 
 @Component
-public class CalculatorImpl implements Calculator{
+public class CalculatorImpl implements Calculator {
     @Override
     public int add(int i, int j) {
 

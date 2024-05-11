@@ -4,102 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a822dc-ace7-45d3-9c5e-e77242182738" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/common_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/l_day02_homekwork_meven_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/order_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/user_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/l-day03-homework-spring-ioc-xml.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aop_01/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aop_01/impl/CalculatorPureImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aop_02/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aop_02/advice/LogAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aop_02/advice/TxAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aop_02/impl/CalculatorPureImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/config/JavaConfig_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/config/JavaConfig_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/test/java/SpringAopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/test/java/SpringAopTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/java/com/javaEE/ioc1/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/java/com/javaEE/ioc2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/java/com/javaEE/ioc3/MyBeanProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/java/com/javaEE/ioc3/SaasIdBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/java/com/javaEE/ioc3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/springIoc3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/test/java/com/javaeeTest/SpringXmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/x_spring_01_ioc_xml.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/main/java/com/javaEE/annotation/config/springConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/main/java/com/javaEE/annotation/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/main/java/com/javaEE/annotation/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/main/java/com/javaEE/annotation/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/main/java/com/javaEE/annotation/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/main/java/com/javaEE/annotation/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/src/test/java/com/javaee/annotation/springTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/advices/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/javaConfig/javaconfig01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/test/java/com/javaee/springTest.java" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day03 spring">
+      <change afterPath="$PROJECT_DIR$/l_day05_spring_tx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day05_spring_tx/src/main/java/com/java/tx/config/TxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day05_spring_tx/src/main/java/com/java/tx/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day05_spring_tx/src/main/java/com/java/tx/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day05_spring_tx/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/test/java/com/javaee/springXmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_04_tx/src/main/java/com/javaee/tx/config/javaconfig01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_04_tx/src/main/java/com/javaee/tx/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_04_tx/src/main/java/com/javaee/tx/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_04_tx/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_04_tx/src/test/java/com/javaee/tx/SpringTestAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j2_impl_2_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day01_maven_01/l_day01_maven_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day01_maven_01/l_day01_maven_01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_maven_01/l_day02_maven_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_maven_01/l_day02_maven_01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc1/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/java/com/javaEE/ioc1/SpringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc1/SpringIocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/test/java/com/javaEE/ioc1/SpringIocTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/com/javaEE/ioc1/SpringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/com/javaEE/ioc1/SpringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/test-classes/com/javaEE/ioc1/SpringIocTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/test-classes/com/javaEE/ioc1/SpringIocTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day04_spring_aop_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aoc_01/Calculater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aoc_01/StaticProxyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/java/com/javaee/aop_01/StaticProxyCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_8_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_8_57_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day02_maven_01/l_day02_maven_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/target/classes/com/javaee/test/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/target/classes/com/javaee/testservice/Testservice.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_04_tx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/CalculatorPureImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/CalculatorStaticProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/src/main/java/com/javaee/ProxyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/target/classes/com/javaee/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/target/classes/com/javaee/CalculatorPureImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/target/classes/com/javaee/CalculatorStaticProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/target/classes/com/javaee/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/target/classes/com/javaee/ProxyFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation/target/classes/com/javaee/ProxyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/src/main/java/com/javaEE/ioc2/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day04_spring_aop_01/src/main/resources/spring_01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/resources/spring_01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_first/target/classes/com/javaEE/ioc2/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_ioc_autowired/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_ioc_autowired/src/main/java/com/javaee/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/x_spring_01_ioc_xml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_02_ioc_annotation/target/test-classes/com/javaee/annotation/springTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_02_ioc_annotation/target/test-classes/com/javaee/annotation/springTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/Calculator/impl/CalculatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/advices/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/advices/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/javaConfig/javaconfig01.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/java/com/javaee/javaConfig/javaconfig01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/resources/spring_01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/main/resources/spring_01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/test/java/com/javaee/springTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/src/test/java/com/javaee/springTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/classes/com/javaee/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/classes/com/javaee/CalculatorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/classes/com/javaee/advices/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/classes/com/javaee/advices/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/classes/spring_01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/classes/spring_01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/test-classes/com/javaee/springTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_03_aop_annotation/target/test-classes/com/javaee/springTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_04_tx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_04_tx/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -121,7 +60,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2gGnRiILsyJ3f7u7D3Zn1xShcwK" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/develoment_dvies/apache-maven-3.8.8" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2fwUYCQAmg2fTEfnWVb7buFgFtk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -136,65 +83,88 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/be_encoding/javaEE/x_spring6/x_spring_02_ioc_annotation/src/main/resources",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_sprint6/x_spring_04_tx/src/main/resources",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28703704",
+    "project.structure.side.proportion": "0.43146273",
     "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "e41bc98c355a60ab011af28cd7d5c541",
+    "spring.configuration.checksum": "b3c4f547fccb18dc4cf2440728cd1c88",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\be_encoding\javaEE\x_spring6\x_spring_02_ioc_annotation\src\main\resources" />
-      <recent name="F:\be_encoding\javaEE\x_spring6\x_spring_01_ioc_xml\src\main\resources" />
+      <recent name="F:\be_encode\javaEE\x_sprint6\x_spring_04_tx\src\main\resources" />
+      <recent name="F:\be_encode\javaEE\x_sprint6\l_day05_spring_tx\src\main\resources" />
+      <recent name="F:\be_encode\javaEE\x_sprint6\l_day03_homework_spring_ioc_xml\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\be_encode\javaEE\x_sprint6\l_day02_spring_ioc_xml\src\main\resources" />
+      <recent name="F:\be_encode\javaEE\x_sprint6\x_day02_micro_shop" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.javaEE.ioc1" />
+      <recent name="com.javaEE.ioc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.springTest">
-    <configuration name="SpringAopTest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day04_spring_aop_01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpringAopTest02" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="JUnit.SpringTestAnnotation.test01">
+    <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaee.test.TestController" />
+      <module name="l_day03_homework_spring_ioc_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAopTest02.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day04_spring_aop_01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpringAopTest02" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringAopTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day04_spring_aop_01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpringAopTest" />
+    <configuration name="Junit-test" type="JUnit" factoryName="JUnit">
+      <module name="l_day02_spring_ioc_xml" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.javaEE.ioc3" />
+      <option name="MAIN_CLASS_NAME" value="com.javaEE.ioc3.TestStudent" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="springTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="x_spring_03_aop_annotation" />
+    <configuration name="SpringTestAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_spring_04_tx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.*" />
+          <option name="PATTERN" value="com.javaee.tx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaee" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.springTest" />
+      <option name="PACKAGE_NAME" value="com.javaee.tx" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.tx.SpringTestAnnotation" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestAnnotation.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_spring_04_tx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.tx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee.tx" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.tx.SpringTestAnnotation" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,7 +173,7 @@
       <module name="x_spring_03_aop_annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.*" />
+          <option name="PATTERN" value="com.javaee.Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,39 +185,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="x_spring_01_ioc_xml" />
+    <configuration name="springXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_spring_03_aop_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaee" />
+      <option name="MAIN_CLASS_NAME" value="com.javaee.springXmlTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="x_spring_01_ioc_xml" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.TestController" />
+      <item itemvalue="JUnit.Junit-test" />
+      <item itemvalue="JUnit.SpringTestAnnotation" />
+      <item itemvalue="JUnit.SpringTestAnnotation.test01" />
+      <item itemvalue="JUnit.springTest.testAdd" />
+      <item itemvalue="JUnit.springXmlTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.springTest" />
+        <item itemvalue="JUnit.SpringTestAnnotation.test01" />
+        <item itemvalue="JUnit.SpringTestAnnotation" />
+        <item itemvalue="JUnit.springXmlTest" />
         <item itemvalue="JUnit.springTest.testAdd" />
-        <item itemvalue="JUnit.SpringAopTest02" />
-        <item itemvalue="JUnit.SpringAopTest02.test02" />
-        <item itemvalue="JUnit.SpringAopTest.test01" />
+        <item itemvalue="Application.TestController" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a8a822dc-ace7-45d3-9c5e-e77242182738" name="Changes" comment="" />
-      <created>1715332777650</created>
+      <changelist id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="" />
+      <created>1714711680121</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715332777650</updated>
-      <workItem from="1715332778388" duration="15436000" />
+      <updated>1714711680121</updated>
+      <workItem from="1714711681272" duration="6342000" />
+      <workItem from="1714721582009" duration="62000" />
+      <workItem from="1714955174908" duration="160000" />
+      <workItem from="1714958486297" duration="5505000" />
+      <workItem from="1714975752970" duration="4647000" />
+      <workItem from="1714980418439" duration="685000" />
+      <workItem from="1714981211690" duration="1606000" />
+      <workItem from="1714982872834" duration="2347000" />
+      <workItem from="1714995964438" duration="2265000" />
+      <workItem from="1715001792351" duration="93000" />
+      <workItem from="1715042022939" duration="842000" />
+      <workItem from="1715051848142" duration="5152000" />
+      <workItem from="1715061090555" duration="4011000" />
+      <workItem from="1715070143151" duration="456000" />
+      <workItem from="1715070610665" duration="9451000" />
+      <workItem from="1715085217137" duration="27000" />
+      <workItem from="1715085246732" duration="91000" />
+      <workItem from="1715085340727" duration="113000" />
+      <workItem from="1715085456469" duration="7000" />
+      <workItem from="1715085483353" duration="480000" />
+      <workItem from="1715128446817" duration="26237000" />
+      <workItem from="1715216423870" duration="12443000" />
+      <workItem from="1715427175919" duration="1951000" />
     </task>
+    <task id="LOCAL-00001" summary="day01 maven">
+      <created>1714990043900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714990043900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day01 maven">
+      <created>1715001807099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715001807099</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day02 spring">
+      <created>1715140104187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715140104187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day02 spring">
+      <created>1715140122157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715140122157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,8 +295,9 @@
       </map>
     </option>
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day01 maven" />
+    <MESSAGE value="day02 spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="day02 spring" />
   </component>
 </project>

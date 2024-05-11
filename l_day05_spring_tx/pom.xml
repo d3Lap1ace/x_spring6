@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.javaee.tx</groupId>
-    <artifactId>x_spring_04_tx</artifactId>
+    <groupId>com.java.tx</groupId>
+    <artifactId>l_day05_spring_tx</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -19,6 +19,7 @@
     </properties>
 
     <dependencies>
+        <!-- 数据库驱动 和 连接池-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -38,16 +39,23 @@
             <version>6.0.6</version>
         </dependency>
 
+        <!-- 声明式事务依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>6.0.6</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
             <version>6.0.6</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>6.0.6</version>
         </dependency>
     </dependencies>
+
+
 </project>

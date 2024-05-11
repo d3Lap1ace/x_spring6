@@ -1,4 +1,4 @@
-package com.javaee;
+package com.javaee.Calculator;
 
 /**
  * @classname x_spring6
