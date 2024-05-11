@@ -20,7 +20,7 @@ public class SoldierController {
 
     @Autowired
     public void getValue(){
-
+        System.out.println("-----");
     }
     public void getMessage(){
         soldierService.getMessage();

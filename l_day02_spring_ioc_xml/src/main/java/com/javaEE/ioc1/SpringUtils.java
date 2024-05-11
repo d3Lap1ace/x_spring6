@@ -11,7 +11,11 @@ package com.javaEE.ioc1;
 
 
 public class SpringUtils {
+    public SpringUtils(){
+        System.out.println("无参构造执行");
+    }
     public void say(){
         System.out.println("hello spring6");
     }
+
 }

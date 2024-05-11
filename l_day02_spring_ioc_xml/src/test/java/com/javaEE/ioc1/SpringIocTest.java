@@ -20,6 +20,5 @@ public class SpringIocTest {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring_01.xml");
         SpringUtils stringUtils = context.getBean("stringUtils", SpringUtils.class);
         stringUtils.say();
-
     }
 }

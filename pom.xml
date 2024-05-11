@@ -24,16 +24,18 @@
         </plugins>
     </build>
     <modules>
-        <module>spring_first</module>
+        <module>x_spring_01_ioc_xml</module>
         <module>l_day01_maven_01</module>
         <module>l_day01_maven_02</module>
-        <module>spring-aop-annotation</module>
         <module>l_day02_maven_01</module>
         <module>l_day02_spring_ioc_xml</module>
         <module>l_day03_spring_ioc_annotation</module>
         <module>l_day03_homework_spring_ioc_xml</module>
-        <module>x_spring_ioc_autowired</module>
         <module>l_day04_spring_aop_01</module>
+        <module>x_spring_02_ioc_annotation</module>
+        <module>x_spring_03_aop_annotation</module>
+        <module>x_spring_04_tx</module>
+
     </modules>
 
     <properties>
