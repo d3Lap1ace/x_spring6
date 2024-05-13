@@ -2,32 +2,28 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="l_day07_springmvc_restful-01:war exploded" />
+      <artifact name="l_day07_springmvc_zohter_01:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day06 springmvc">
-      <change afterPath="$PROJECT_DIR$/l_day06_spring_homework/src/main/java/com/javaeemvc/controller/JspController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/src/main/java/com/springmvc/controller/ScheduleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/src/main/java/com/springmvc/pojo/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/src/main/java/com/springmvc/service/ScheduleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/src/main/java/com/springmvc/service/impl/ScheduleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/src/main/java/com/springmvc/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_restful_01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day07 springmvc">
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/java/com/springmvc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/java/com/springmvc/exceptionhandlers/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/java/com/springmvc/interceptors/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/java/com/springmvc/interceptors/TaInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/java/com/springmvc/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/target/classes/com/javaEE/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/target/classes/com/javaEE/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day06_spring_homework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day06_spring_homework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day06_spring_homework/target/classes/springweb.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +36,10 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Jsp File" />
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,6 +75,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -94,7 +92,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3321067",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "5403e09af018ad8f3b8c37e4a54fdc3b",
     "vue.rearranger.settings.migration": "true"
   }
@@ -107,6 +105,7 @@
       <recent name="F:\be_encode\javaEE\x_sprint6\l_day03_homework_spring_ioc_xml\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\be_encode\javaEE\x_spring6" />
       <recent name="F:\be_encode\javaEE\x_spring6\L_day06_springmvc_base_01\src\main\webapp" />
       <recent name="F:\be_encode\javaEE\x_spring6\L_day06_springmvc_base_01\src\main" />
       <recent name="F:\be_encode\javaEE\x_sprint6\l_day02_spring_ioc_xml\src\main\resources" />
@@ -219,9 +218,9 @@
     <configuration name="Tomcat 10.1.7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.7" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="17" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="l_day07_springmvc_restful-01:war exploded">
+        <artifact name="l_day07_springmvc_zohter_01:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/rest" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -299,7 +298,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="l_day07_springmvc_restful-01:war exploded" />
+          <artifact name="l_day07_springmvc_zohter_01:war exploded" />
         </option>
       </method>
     </configuration>
@@ -370,7 +369,7 @@
       <workItem from="1715586465789" duration="73000" />
       <workItem from="1715586542122" duration="39000" />
       <workItem from="1715586584220" duration="136000" />
-      <workItem from="1715586722897" duration="512000" />
+      <workItem from="1715586722897" duration="8752000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -414,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715516553582</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day07 springmvc">
+      <created>1715587597370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715587597370</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +442,8 @@
     <MESSAGE value="day01 maven" />
     <MESSAGE value="day02 spring" />
     <MESSAGE value="day06 springmvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="day06 springmvc" />
+    <MESSAGE value="day07 springmvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="day07 springmvc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
