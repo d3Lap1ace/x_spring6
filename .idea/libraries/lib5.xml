@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/micrometer-commons-1.10.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/micrometer-observation-1.10.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-context-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-web-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/l_day07_springmvc_restful_01/target/l_day07_springmvc_restful-01-1.0-SNAPSHOT/WEB-INF/lib/spring-core-6.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

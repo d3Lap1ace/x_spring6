@@ -12,6 +12,8 @@
     <file type="web" url="file://$PROJECT_DIR$/l_day06_springmvc_base_03" />
     <file type="web" url="file://$PROJECT_DIR$/l_day06_springmvc_base_04" />
     <file type="web" url="file://$PROJECT_DIR$/l_day06_springmvc_base_05" />
+    <file type="web" url="file://$PROJECT_DIR$/l_day07_springmvc_restful_01" />
+    <file type="web" url="file://$PROJECT_DIR$/l_day07_springmvc_zother_01" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,16 +21,24 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/pom.xml" />
         <option value="$PROJECT_DIR$/l_day06_spring_homework/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day07_springmvc_restful-01/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day07_springmvc_restful_01/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/pom.xml" />
         <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_01/pom.xml" />
         <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_02/pom.xml" />
         <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_03/pom.xml" />
         <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_04/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day07_springmvc_other/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day07_springmvc_zother_01/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>
