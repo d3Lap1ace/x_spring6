@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+    <mapper namespace="com.springmvc.mybatis.mapper.UserMapper">
+    <select id="queryById" resultType="com.springmvc.mybatis.pojo.User">
+        select emp_id ,emp_name , emp_salary  from
+        user where emp_id = #{Id}
+    </select>
+
+    <delete id="deleteById">
+        delete from user where emp_id = #{Id}
+    </delete>
+
+    <insert id="insertUser">
+        insert into user(emp_name,emp_salary)
+        values (#{Name},#{Salary});
+    </insert>
+
+    <update id="updateUser">
+        update user set emp_name = #{Name},
+        emp_salary = #{Salary}
+        where emp_id = #{Id}
+    </update>
+</mapper>
+
+
+
+
