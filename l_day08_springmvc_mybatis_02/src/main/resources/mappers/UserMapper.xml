@@ -4,22 +4,31 @@
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
     <mapper namespace="com.springmvc.mybatis.mapper.UserMapper">
-    <select id="queryById" resultType="com.springmvc.mybatis.pojo.User">
-        select emp_id ,emp_name , emp_salary  from
-        user where emp_id = #{Id}
+    <resultMap id="User" type="com.springmvc.mybatis.pojo.User">
+        <id column="emp_id" property="id"></id>
+        <result column="emp_name" property="name"></result>
+        <result column="emp_salary" property="salary"></result>
+        <result column="emo_age" property="age"></result>
+    </resultMap>
+    <select id="queryById" resultMap="User">
+        select *  from
+        t_emp where emp_id = #{Id}
+    </select>
+    <select id="getUserList" resultMap="User">
+        select * from t_emp
     </select>
 
-    <delete id="deleteById">
-        delete from user where emp_id = #{Id}
+        <delete id="deleteById">
+        delete from t_emp where emp_id = #{Id}
     </delete>
 
     <insert id="insertUser">
-        insert into user(emp_name,emp_salary)
+        insert into t_emp(emp_name,emp_salary)
         values (#{Name},#{Salary});
     </insert>
 
     <update id="updateUser">
-        update user set emp_name = #{Name},
+        update t_emp set emp_name = #{Name},
         emp_salary = #{Salary}
         where emp_id = #{Id}
     </update>

@@ -2,6 +2,8 @@ package com.springmvc.mybatis.mapper;
 
 import com.springmvc.mybatis.pojo.User;
 
+import java.util.List;
+
 /**
  * @classname x_spring6
  * @Auther d3Lap1ace
@@ -18,4 +20,6 @@ public interface UserMapper {
     int insertUser(User user);
 
     int updateUser(User user);
+
+    List<User>getUserList();
 }

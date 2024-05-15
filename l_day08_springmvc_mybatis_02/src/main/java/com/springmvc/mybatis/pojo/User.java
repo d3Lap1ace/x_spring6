@@ -17,13 +17,16 @@ public class User {
 
     private Double Salary;
 
+    private Integer age;
+
 
     @Override
     public String toString() {
-        return "user{" +
+        return "User{" +
                 "Id=" + Id +
                 ", Name='" + Name + '\'' +
                 ", Salary=" + Salary +
+                ", age=" + age +
                 '}';
     }
 
@@ -49,5 +52,13 @@ public class User {
 
     public void setSalary(Double salary) {
         Salary = salary;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }

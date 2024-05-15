@@ -5,6 +5,8 @@ import com.springmvc.mybatis.pojo.User;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 /**
  * @classname x_spring6
  * @Auther d3Lap1ace
@@ -56,6 +58,15 @@ public class MybatisTest {
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         User user = mapper.queryById(2);
         System.out.println("user = " + user);
+        sqlSession.close();
+    }
+
+    @Test
+    public void test_05(){
+        SqlSession sqlSession = SqlSessionUtils.openAutoSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        List<User> userList = mapper.getUserList();
+        userList.forEach(System.out::println);
         sqlSession.close();
     }
 }
