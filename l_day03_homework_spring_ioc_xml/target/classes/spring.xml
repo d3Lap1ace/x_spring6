@@ -10,7 +10,7 @@
     <bean id="druidDataSource" class="com.alibaba.druid.pool.DruidDataSource">
         <property name="url" value="${jdbc.url}"/>
         <property name="driverClassName" value="${jdbc.driver}"/>
-        <property name="username" value="${jdbc.user}"/>
+        <property name="username" value="${jdbc.employee}"/>
         <property name="password" value="${jdbc.password}"/>
     </bean>
 

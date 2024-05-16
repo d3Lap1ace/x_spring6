@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatisHw.mapper.StudentMapper">
+
+    <resultMap id="stscore" type="student">
+        <id column="s_id" property="s_id"/>
+        <result column="s_name" property="s_name"/>
+        <result column="a_id" property="a_id"/>
+        <collection property="scoreList" ofType="Score">
+            <id column="c_id" property="c_id"/>
+            <result column="c_number" property="c_number"/>
+            <result column="s_id" property="s_id"/>
+            <result column="u_id" property="u_id"/>
+        </collection>
+    </resultMap>
+
+    <resultMap id="staddress" type="student">
+        <id column="s_id" property="s_id"/>
+        <result column="s_name" property="s_name"/>
+        <result column="a_id" property="a_id"/>
+        <collection property="addressList" ofType="Address">
+            <id property="a_id" column="a_id"/>
+            <result column="a_detail" property="a_detail"/>
+        </collection>
+    </resultMap>
+
+    <resultMap id="ScoreAndCourse" type="student">
+        <id column="s_id" property="s_id"/>
+        <result column="s_name" property="s_name"/>
+        <result column="a_id" property="a_id"/>
+        <collection property="scoreList" ofType="Score">
+            <id column="c_id" property="c_id"/>
+            <result column="c_number" property="c_number"/>
+            <result column="s_id" property="s_id"/>
+            <result column="u_id" property="u_id"/>
+            <collection property="courseList" ofType="Course">
+                <id column="u_id" property="u_id"/>
+                <result column="u_name" property="u_name"/>
+            </collection>
+        </collection>
+    </resultMap>
+
+
+    <resultMap id="allmessage" type="student">
+        <id column="s_id" property="s_id"/>
+        <result column="s_name" property="s_name"/>
+        <result column="a_id" property="a_id"/>
+        <collection property="scoreList" ofType="Score">
+            <id column="c_id" property="c_id"/>
+            <result column="c_number" property="c_number"/>
+            <result column="s_id" property="s_id"/>
+            <result column="u_id" property="u_id"/>
+            <collection property="courseList" ofType="Course">
+                <id column="u_id" property="u_id"/>
+                <result column="u_name" property="u_name"/>
+            </collection>
+        </collection>
+        <collection property="addressList" ofType="Address">
+            <id column="a_id" property="a_id"/>
+            <result column="a_detail" property="a_detail"/>
+        </collection>
+    </resultMap>
+
+
+
+    <select id="queryStScore" resultMap="stscore">
+        SELECT st.s_name,so.c_number FROM student st JOIN score so ON st.s_id = so.s_id;
+    </select>
+
+    <select id="queryStAddress" resultMap="staddress">
+        SELECT st.s_name, ad.a_detail FROM student st JOIN address ad ON st.a_id = ad.a_id;
+    </select>
+
+
+    <select id="queryScoreAndCourse" resultMap="ScoreAndCourse">
+        SELECT  s_name,c_number,u_name  FROM student st JOIN score sc ON st.s_id =sc.s_id
+        JOIN course co ON sc.u_id = co.u_id
+    </select>
+
+
+    <select id="all" resultMap="allmessage">
+        SELECT  s_name,c_number,u_name, a_detail FROM student st JOIN score sc ON st.s_id =sc.s_id
+        JOIN course co ON sc.u_id = co.u_id
+        JOIN address ad ON st.a_id = ad.a_id
+    </select>
+
+</mapper>

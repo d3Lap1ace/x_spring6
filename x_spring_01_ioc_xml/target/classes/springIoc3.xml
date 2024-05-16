@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="com.javaEE.ioc3.User">
+    <bean id="employee" class="com.javaEE.ioc3.User">
         <property name="id" value="1001"></property>
         <property name="username" value="admin"></property>
         <property name="password" value="123456"></property>

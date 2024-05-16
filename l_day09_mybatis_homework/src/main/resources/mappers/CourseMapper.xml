@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatisHw.mapper.CourseMapper">
+    <resultMap id="cMap" type="course">
+        <id column="u_id" property="u_id"/>
+        <result column="u_name" property="u_name"/>
+        <collection property="scoreList" ofType="Score">
+            <id column="c_id" property="c_id"/>
+            <result column="c_number" property="c_number"/>
+            <result column="s_id" property="s_id"/>
+            <result column="u_id" property="u_id"/>
+        </collection>
+    </resultMap>
+
+    <select id="queryScore" resultMap="cMap">
+        SELECT u_name,c_number FROM course co JOIN score so ON co.u_id = so.u_id;
+    </select>
+    
+</mapper>
+    
