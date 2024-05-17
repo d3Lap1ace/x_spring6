@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.EmpMapper">
+
+    <select id="queryByParam" resultType="com.mybatis.pojo.Employee">
+        select * from t_emp
+        <if test="emp_name != null and emp_name !='' ">
+            and emp_name = #{emp_name}
+        </if>
+        <if test="emp_salary != null">
+            and emp_salary = #{emp_salary}
+        </if>
+    </select>
+
+
+    <update id="updateEmpById">
+        update t_emp
+        <set>
+            <if test="emp_name != null">
+                emp_name = #{emp_name},
+            </if>
+            <if test="empSalary != null">
+                emp_salary = #{emp_salary}
+            </if>
+        </set>
+            where emp_id = #{emp_id}
+    </update>
+
+
+    <select id="queryByChoose" resultType="com.mybatis.pojo.Employee">
+        select * from t_emp where
+        <choose>
+            <when test="emp_name != null">emp_name = #{emp_name}</when>
+            <when test="emp_salary != null">emp_salary = #{emp_salary}</when>
+            <otherwise>1=1</otherwise>
+        </choose>
+    </select>
+
+
+
+
+    <select id="qyertByIds" resultType="com.mybatis.pojo.Employee">
+        select *from t_emp where emp_id in
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+
+<!--    List<Employee>queryById(@Param("ids") List<Integer> ids);-->
+
+    <delete id="queryBydelete">
+        <foreach collection="ids" item="xx" open="where emp_id in (" separator="," close=")">
+            #{id},#{xx}
+        </foreach>
+    </delete>
+
+    <insert id="batchInsert">
+        insert into t_emp (emp_name,emp_salary)values
+        <foreach collection="emps" item="emp" open="(" separator="," close=")">
+            #{id},#{xxx}
+        </foreach>
+    </insert>
+
+    <update id="xxxxx">
+        <foreach collection="ids" item="id" >
+            update t_emp set  emp_name = #{emp.emp_name},emp_salary=#{emp.empSalary} where emp_id = #{emp.empid};
+        </foreach>
+    </update>
+
+
+
+
+</mapper>
+

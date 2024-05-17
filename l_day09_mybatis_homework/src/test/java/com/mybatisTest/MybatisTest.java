@@ -3,7 +3,7 @@ package com.mybatisTest;
 import com.mybatisHw.mapper.CourseMapper;
 import com.mybatisHw.mapper.StudentMapper;
 import com.mybatisHw.pojo.Course;
-import com.mybatisHw.pojo.Score;
+
 import com.mybatisHw.pojo.Student;
 import com.mybatisHw.utils.SqlSessionUtils;
 import org.apache.ibatis.session.SqlSession;

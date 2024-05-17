@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.CustomerMapper">
+
+    <resultMap id="cMap" type="com.mybatis.pojo.Customer">
+        <id column="customer_id" property="customerId"/>
+        <result column="customer_name" property="customerName"/>
+        <collection property="queryOrder" ofType="com.mybatis.pojo.Order">
+            <id column="order_id" property="orderId"/>
+            <result column="order_Name" property="orderName"/>
+        </collection>
+    </resultMap>
+
+
+    <select id="queryAll" resultMap="cMap">
+        select * from t_order tor join t_customer tcr on tor.customer_id = tcr.customer_id
+        where customer_id = #{customerId};
+    </select>
+
+</mapper>
+

@@ -3,10 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
-
-
 <configuration>
-
     <settings>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <setting name="logImpl" value="STDOUT_LOGGING"/>
@@ -16,9 +13,6 @@
         <!-- 给实体类起别名 -->
         <package name="com.mybatisHw.pojo"/>
     </typeAliases>
-
-
-
     <environments default="dev">
         <environment id="dev">
             <transactionManager type="jdbc"></transactionManager>
@@ -32,7 +26,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="mappers/CourseMapper.xml"/>
-        <mapper resource="mappers/StudentMapper.xml"/>
+        <mapper resource="mappers/EmployeeMapper.xml"/>
+
     </mappers>
 </configuration>

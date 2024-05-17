@@ -9,67 +9,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day08 mybatis">
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/mapper/AddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/mapper/ScoreMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/pojo/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/pojo/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/java/com/mybatisHw/utils/SqlSessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/resources/mappers/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/test/java/com/mybatisTest/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_input/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_input/src/main/java/com/springmvc/mybatis/Utils/SqlSessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_input/src/main/java/com/springmvc/mybatis/mapper/EmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_input/src/main/java/com/springmvc/mybatis/pojo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_input/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_input/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_input/src/test/java/com/springmvc/mybatis/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/java/com/mybatis/mapper/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/java/com/mybatis/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/java/com/mybatis/pojo/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/java/com/mybatis/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/java/com/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/resources/mappers/CustomerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/resources/mappers/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day09_mybatis_output/src/main/resources/mybatis-config.xml" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day09 mybatis version 1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/java/com/mybatis/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/java/com/mybatis/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/java/com/mybatis/pojo/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/java/com/mybatis/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/java/com/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/resources/mappers/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/resources/mappers/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_distribution/src/test/java/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_dysql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_dysql/src/main/java/com/mybatis/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_dysql/src/main/java/com/mybatis/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_dysql/src/main/java/com/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_dysql/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_dysql/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day10_mybatis_x/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/l_day01_maven_01_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/l_day01_maven_01_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/l_day02_maven_01_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/l_day02_maven_01_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_14_2024_9_52_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_14_2024_9_52_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_8_57_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_9_2024_8_57_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/src/main/resources/spring_03.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/spring_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/spring_02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/spring_03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day02_spring_ioc_xml/target/classes/spring_03.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_homework_spring_ioc_xml/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day05_spring_tx/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/l_day05_spring_tx/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day05_spring_tx/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/l_day05_spring_tx/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day07_springmvc_zohter_01/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day08_springmvc_mybatis_01/target/classes/com/java/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day08_springmvc_mybatis_01/target/classes/com/java/mapper/EmployeeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day08_springmvc_mybatis_01/target/classes/mappers/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day08_springmvc_mybatis_01/target/classes/mappers/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day08_springmvc_mybatis_01/target/test-classes/com/javaMybatis/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day08_springmvc_mybatis_01/target/test-classes/com/javaMybatis/test/MybatisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/src/main/java/com/springmvc/mybatis/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/src/main/java/com/springmvc/mybatis/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/target/classes/com/springmvc/mybatis/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/target/classes/com/springmvc/mybatis/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day08_springmvc_mybatis_02/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/springIoc3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/springIoc3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/springIoc3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/springIoc3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_04_tx/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_04_tx/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_04_tx/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_04_tx/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/x_spring6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/x_spring6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day09_mybatis_homework/src/test/java/com/mybatisTest/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day09_mybatis_homework/src/test/java/com/mybatisTest/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +55,8 @@
         <option value="Jsp File" />
         <option value="HTML File" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="mybatis-01" />
       </list>
     </option>
@@ -129,7 +101,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6/l_day09_mybatis_homework/src/main/resources",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6/l_day10_mybatis_dysql/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,18 +110,23 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3321067",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "a74fba112cbaa59a67a604c38ae312e1",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\be_encode\javaEE\x_spring6\l_day10_mybatis_dysql\src\main\resources" />
+      <recent name="F:\be_encode\javaEE\x_spring6\l_day10_mybatis_distribution\src\main\java\com\mybatis" />
+      <recent name="F:\be_encode\javaEE\x_spring6\l_day10_mybatis_distribution\src\main\java\com\mybatis\pojo" />
+      <recent name="F:\be_encode\javaEE\x_spring6\l_day10_mybatis_distribution\src\main\resources" />
       <recent name="F:\be_encode\javaEE\x_spring6\l_day09_mybatis_homework\src\main\resources" />
-      <recent name="F:\be_encode\javaEE\x_spring6\l_day09_mybatis_output\src\main\resources" />
-      <recent name="F:\be_encode\javaEE\x_spring6\l_day08_springmvc_mybatis_02\src\main\resources\mappers" />
-      <recent name="F:\be_encode\javaEE\x_spring6\L_day06_springmvc_base_01\src\main" />
-      <recent name="F:\be_encode\javaEE\x_sprint6\x_spring_04_tx\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\be_encode\javaEE\x_spring6" />
@@ -169,14 +146,14 @@
       <recent name="com.javaeemvc.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mybatisHw.utils" />
+      <recent name="com.utils" />
+      <recent name="" />
+      <recent name="com.mybatis" />
       <recent name="com.mybatis.utils" />
-      <recent name="com.mybatis.pojo.mapper" />
-      <recent name="com.mybatis.pojo" />
-      <recent name="com.springmvc.mybatis" />
+      <recent name="com.mybatisHw.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.test_05 (1)">
+  <component name="RunManager" selected="JUnit.MybatisTest.test_02">
     <configuration name="Junit-test" type="JUnit" factoryName="JUnit">
       <module name="l_day02_spring_ioc_xml" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -205,16 +182,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest.test_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day10_mybatis_distribution" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
+      <option name="METHOD_NAME" value="test_01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisTest.test_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day09_mybatis_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatisTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybatisTest" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatisTest.MybatisTest" />
+      <module name="l_day10_mybatis_distribution" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
       <option name="METHOD_NAME" value="test_02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -232,22 +213,6 @@
       <option name="PACKAGE_NAME" value="com.mybatisTest" />
       <option name="MAIN_CLASS_NAME" value="com.mybatisTest.MybatisTest" />
       <option name="METHOD_NAME" value="test_03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day09_mybatis_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatisTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybatisTest" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatisTest.MybatisTest" />
-      <option name="METHOD_NAME" value="test_04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -358,19 +323,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Junit-test" />
+      <item itemvalue="JUnit.MybatisTest.test_01" />
       <item itemvalue="JUnit.MybatisTest.test_01 (1)" />
       <item itemvalue="JUnit.MybatisTest.test_05 (1)" />
       <item itemvalue="JUnit.MybatisTest.test_02" />
       <item itemvalue="JUnit.MybatisTest.test_03" />
-      <item itemvalue="JUnit.MybatisTest.test_04" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.7" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.test_05 (1)" />
-        <item itemvalue="JUnit.MybatisTest.test_04" />
-        <item itemvalue="JUnit.MybatisTest.test_03" />
         <item itemvalue="JUnit.MybatisTest.test_02" />
+        <item itemvalue="JUnit.MybatisTest.test_01" />
+        <item itemvalue="JUnit.MybatisTest.test_05 (1)" />
+        <item itemvalue="JUnit.MybatisTest.test_03" />
         <item itemvalue="JUnit.MybatisTest.test_01 (1)" />
       </list>
     </recent_temporary>
@@ -428,6 +393,18 @@
       <workItem from="1715689793835" duration="738000" />
       <workItem from="1715691254511" duration="2067000" />
       <workItem from="1715822846753" duration="24240000" />
+      <workItem from="1715858051448" duration="108000" />
+      <workItem from="1715858338697" duration="46000" />
+      <workItem from="1715858402362" duration="236000" />
+      <workItem from="1715858653295" duration="347000" />
+      <workItem from="1715859013515" duration="187000" />
+      <workItem from="1715859218335" duration="179000" />
+      <workItem from="1715859408046" duration="898000" />
+      <workItem from="1715860318680" duration="626000" />
+      <workItem from="1715861937933" duration="700000" />
+      <workItem from="1715863143102" duration="1233000" />
+      <workItem from="1715865191731" duration="774000" />
+      <workItem from="1715906442598" duration="20626000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -492,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715597988977</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="day09 mybatis version 1.0">
+      <created>1715858144062</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715858144062</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +500,8 @@
     <MESSAGE value="day06 springmvc" />
     <MESSAGE value="day07 springmvc" />
     <MESSAGE value="day07 springmvc  v 0.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="day07 springmvc  v 0.9" />
+    <MESSAGE value="day09 mybatis version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="day09 mybatis version 1.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
