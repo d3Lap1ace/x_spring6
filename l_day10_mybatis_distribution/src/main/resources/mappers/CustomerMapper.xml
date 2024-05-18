@@ -4,19 +4,21 @@
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mybatis.mapper.CustomerMapper">
 
+    <!-- sql语句     Customer queryById(Integer customerId);
+     -->
+    <select id="queryById" resultType="com.mybatis.pojo.Customer">
+        select * from t_customer where customer_id = #{customerId}
+    </select>
+
+
+
     <resultMap id="cMap" type="com.mybatis.pojo.Customer">
-        <id column="customer_id" property="customerId"/>
-        <result column="customer_name" property="customerName"/>
-        <collection property="queryOrder" ofType="com.mybatis.pojo.Order">
-            <id column="order_id" property="orderId"/>
-            <result column="order_Name" property="orderName"/>
-        </collection>
+        <id column="customer_id" property="customerId" />
+        <collection property="queryList" column="customer_id" select="com.mybatis.mapper.OrderMapper.queryByCustomerId" />
     </resultMap>
-
-
-    <select id="queryAll" resultMap="cMap">
-        select * from t_order tor join t_customer tcr on tor.customer_id = tcr.customer_id
-        where customer_id = #{customerId};
+    <!--    Customer queryByCustomerId(Integer customerId);-->
+    <select id="queryByCustomerId" resultMap="cMap">
+        select * from t_customer where customer_id = #{customerId}
     </select>
 
 </mapper>

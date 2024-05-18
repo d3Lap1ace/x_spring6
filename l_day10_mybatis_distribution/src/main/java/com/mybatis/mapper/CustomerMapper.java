@@ -13,5 +13,6 @@ import java.util.List;
  * From the Laplace Demon
  */
 public interface CustomerMapper {
-    List<Customer>queryOrder(Integer id);
+    Customer queryById(Integer customerId);
+    Customer queryByCustomerId (Integer customerId);
 }

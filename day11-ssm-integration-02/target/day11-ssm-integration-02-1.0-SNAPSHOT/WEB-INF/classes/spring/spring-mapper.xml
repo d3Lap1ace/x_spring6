@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:conetxt="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- druidDataSource
+         sqlSessionFactory
+               1.保留原有的mybatis配置文件 （数据库化境，mapper取消）
+               2.取消原有的mybatis配置文件
+         mapper代理对象
+     -->
+
+    <conetxt:property-placeholder location="classpath:jdbc.properties" />
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}" />
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+<!--        <property name="configLocation" value="classpath:mybatis-config.xml" />-->
+
+        <property name="configuration" >
+            <bean class="org.apache.ibatis.session.Configuration">
+                <property name="logImpl" value="org.apache.ibatis.logging.slf4j.Slf4jImpl" />
+                <property name="mapUnderscoreToCamelCase" value="true" />
+                <property name="autoMappingBehavior" value="FULL" />
+                <property name="lazyLoadingEnabled" value="false" />
+                <property name="aggressiveLazyLoading" value="false" />
+            </bean>
+        </property>
+
+        <property name="plugins">
+            <bean class="com.github.pagehelper.PageInterceptor">
+                <property name="properties">
+                   <props>
+                       <prop key="helperDialect">mysql</prop>
+                   </props>
+                </property>
+            </bean>
+        </property>
+
+        <!-- mybatis-config.xml / typeAliases/package -->
+        <property name="typeAliasesPackage" value="com.atguigu.pojo" />
+        <property name="dataSource" ref="dataSource" />
+        <property name="mapperLocations" value="classpath:mappers/*.xml" />
+    </bean>
+
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.atguigu.mapper" />
+    </bean>
+
+
+</beans>

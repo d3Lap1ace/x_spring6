@@ -4,68 +4,165 @@
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mybatis.mapper.EmpMapper">
 
-    <select id="queryByParam" resultType="com.mybatis.pojo.Employee">
+    <sql id="selectSql">
         select * from t_emp
-        <if test="emp_name != null and emp_name !='' ">
-            and emp_name = #{emp_name}
-        </if>
-        <if test="emp_salary != null">
-            and emp_salary = #{emp_salary}
-        </if>
+    </sql>
+
+    <sql id="selectSql1">
+        select * from t_emp
+    </sql>
+
+
+    <select id="queryAll" resultType="com.mybatis.pojo.Employee">
+        select * from t_emp
     </select>
 
+    <!--
+    //传入员工的姓名或者员工的工资,可能不传入
+    List<Employee> queryByParam(@Param("empName") String empName, @Param("empSalary") Double empSalary);
+       empName
+       empSalary
+         1. 啥都不传入 错的
+              select * from t_emp where
+         2. 两个都有值 对的
+             select * from t_emp where  emp_name = #{empName}  and emp_salary = #{empSalary}
+         3. name有值 对的
+             select * from t_emp where emp_name = #{empName}
+         4. salary有值 错的
+            select * from t_emp where  and emp_salary = #{empSalary}
+    -->
+
+    <!--    <select id="queryByParam" resultType="employee">-->
+    <!--        select * from t_emp where 1=1-->
+    <!--        &lt;!&ndash;-->
+    <!--           if 判定是否追加某段sql语句!-->
+    <!--              test = "运算公式 = true 追加 | false 不追加 "-->
+    <!--        &ndash;&gt;-->
+    <!--        <if test="empName != null and empName != ''">-->
+    <!--            and emp_name = #{empName}-->
+    <!--        </if>-->
+    <!--        <if test="empSalary != null">-->
+    <!--            and emp_salary = #{empSalary}-->
+    <!--        </if>-->
+    <!--    </select>-->
+
+    <!--
+       if会判定是否追加sql语句
+       where会判定是否追加where关键字,以及去掉每个if多余的and和or
+    -->
+
+    <select id="queryByParam" resultType="com.mybatis.pojo.Employee">
+        <include refid="selectSql" />
+        <where>
+            <!--
+               if 判定是否追加某段sql语句!
+                  test = "运算公式 = true 追加 | false 不追加 "
+            -->
+            <if test="empName != null and empName != ''">
+                and emp_name = #{empName}
+            </if>
+            <if test="empSalary != null">
+                and emp_salary = #{empSalary}
+            </if>
+        </where>
+
+    </select>
+
+
+    <!--    //第二组动态标签 if + set-->
+    <!--    //根据id更新员工数据,传入一个员工对象,如果传入name或者salary属性为null不需要更新!-->
+    <!--    int updateEmpById(Employee employee);-->
+
+    <!--
+       set标签的作用:
+          1. 自动追加set关键字
+          2. 自动去掉多余的,
+          天生bug: 如果条件都不满足,一定出错!
+    -->
 
     <update id="updateEmpById">
         update t_emp
         <set>
-            <if test="emp_name != null">
-                emp_name = #{emp_name},
+            <if test="empName != null">
+                emp_name = #{empName} ,
             </if>
             <if test="empSalary != null">
-                emp_salary = #{emp_salary}
+                emp_salary = #{empSalary}
             </if>
         </set>
-            where emp_id = #{emp_id}
+        where emp_id = #{empId}
     </update>
 
 
+    <!--    List<Employee> queryByChoose(@Param("empName") String empName, @Param("empSalary") Double empSalary);-->
     <select id="queryByChoose" resultType="com.mybatis.pojo.Employee">
-        select * from t_emp where
+        <include refid="selectSql" /> where
         <choose>
-            <when test="emp_name != null">emp_name = #{emp_name}</when>
-            <when test="emp_salary != null">emp_salary = #{emp_salary}</when>
+            <when test="empName != null"> emp_name = #{empName} </when>
+            <when test="empSalary != null"> emp_salary = #{empSalary} </when>
             <otherwise>1=1</otherwise>
         </choose>
     </select>
 
 
+    <!--    //根据id进行批量数据查询 id = 1  [1,2,3,4]-->
+    <!--    List<Employee> queryByIds(@Param("ids") List<Integer> ids);-->
 
 
-    <select id="qyertByIds" resultType="com.mybatis.pojo.Employee">
-        select *from t_emp where emp_id in
+    <select id="queryByIds" resultType="com.mybatis.pojo.Employee">
+        select * from t_emp
+        where emp_id in
+        <!--
+           open = 开始追加的一个字符串
+           close = 结束追加的一个字符串
+           separator = "," 每次使用,进行分割 , 最后一个不会追加分割,
+           collection ="ids" 指定要遍历的集合
+           item ="id" 每次获取遍历项 ! 遍历项可以在遍历范围内正常使用#{} ${} 取值
+           foreach = 标签之间就是遍历体
+        -->
         <foreach collection="ids" item="id" open="(" separator="," close=")">
             #{id}
         </foreach>
+        <!--        (1,2,3,4) (1,2) (1,2,3)-->
     </select>
 
-<!--    List<Employee>queryById(@Param("ids") List<Integer> ids);-->
 
-    <delete id="queryBydelete">
+    <!--    //根据id进行批量数据删除-->
+    <!--    int deleteByIds(@Param("ids") List<Integer> ids);-->
+
+    <delete id="deleteByIds">
+        delete from t_emp
+
         <foreach collection="ids" item="xx" open="where emp_id in (" separator="," close=")">
-            #{id},#{xx}
+            #{xx}
         </foreach>
     </delete>
 
-    <insert id="batchInsert">
-        insert into t_emp (emp_name,emp_salary)values
-        <foreach collection="emps" item="emp" open="(" separator="," close=")">
-            #{id},#{xxx}
+
+    <!--   (#{},#{},#{}) , (#{},#{},#{})   , (#{},#{},#{})   , (#{},#{},#{})-->
+
+    <!--    //批量数据插入-->
+    <!--    int batchInsert(@Param("emps")List<Employee> emps);-->
+
+    <insert id="batchInsert" >
+        insert into t_emp (emp_name,emp_salary) values  (#{},#{})    ,        ( #{},{})  ,(#{},#{})
+        <!--            <foreach collection="emps" item="emp" separator=",">-->
+        <!--                (#{emp.empName},#{emp.empSalary})-->
+        <!--            </foreach>-->
+
+        <foreach collection="emps" item="emp" open="(" separator="),(" close=")">
+            #{emp.empName},#{emp.empSalary}
         </foreach>
     </insert>
 
-    <update id="xxxxx">
-        <foreach collection="ids" item="id" >
-            update t_emp set  emp_name = #{emp.emp_name},emp_salary=#{emp.empSalary} where emp_id = #{emp.empid};
+    <!--    //批量数据更新-->
+    <!--    int batchUpdate(@Param("emps")List<Employee> emps);
+            上面1条语句!
+            n条语句
+    -->
+    <update id="batchUpdate">
+        <foreach collection="emps" item="emp">
+            update t_emp set  emp_name = #{emp.empName} , emp_salary = #{emp.empSalary}  where  emp_id = #{emp.empId};
         </foreach>
     </update>
 

@@ -17,5 +17,5 @@ import java.util.List;
 public class Customer {
     private Integer customerId;
     private String customerName;
-    private List<Order>queryOrder;
+    private List<Order>queryList;
 }

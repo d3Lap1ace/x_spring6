@@ -21,18 +21,35 @@ import java.util.List;
 public class MybatisTest {
     @Test
     public void test_01(){
-        SqlSession sqlSession = SqlSessionUtils.openAutoSession();
+        SqlSession sqlSession = SqlSessionUtils.openSession();
         OrderMapper mapper = sqlSession.getMapper(OrderMapper.class);
-        List<Order> allCustomer = mapper.queryAllCustomer();
-        allCustomer.forEach(System.out::println);
+        List<Order> orderList =  mapper.queryAll();
+        orderList.forEach(System.out::println);
         sqlSession.close();
     }
+
     @Test
     public void test_02(){
         SqlSession sqlSession = SqlSessionUtils.openAutoSession();
+        OrderMapper mapper = sqlSession.getMapper(OrderMapper.class);
+        List<Order> orderList = mapper.queryByCustomerId(1);
+        System.out.println("orderList = " + orderList);
+        sqlSession.close();
+    }
+    @Test
+    public void test_03(){
+        SqlSession sqlSession = SqlSessionUtils.openAutoSession();
         CustomerMapper mapper = sqlSession.getMapper(CustomerMapper.class);
-        List<Customer> customers = mapper.queryOrder(1);
-        customers.forEach(System.out::println);
+        Customer customer = mapper.queryById(1);
+        System.out.println("customer = " + customer);
+        sqlSession.close();
+    }
+    @Test
+    public void test_04(){
+        SqlSession sqlSession = SqlSessionUtils.openAutoSession();
+        CustomerMapper mapper = sqlSession.getMapper(CustomerMapper.class);
+        Customer customer = mapper.queryByCustomerId(1);
+        System.out.println("customer = " + customer);
         sqlSession.close();
     }
 }

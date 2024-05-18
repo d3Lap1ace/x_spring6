@@ -11,8 +11,10 @@ import lombok.Data;
 
 @Data
 public class Employee {
-    private Integer emp_id;
-    private String emp_name;
-    private Double emp_salary;
+    private Integer empId;
+
+    private String empName;
+
+    private Double empSalary;
 
 }

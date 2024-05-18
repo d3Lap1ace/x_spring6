@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:conetxt="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!-- 持久层相关的组件
+           druidDataSource -> 事务管理器 | mybatis使用
+           mybatis提供的整合包 -> sqlSessionFactory加入到ioc | mapper的代理对象
+           mapper不是扫描 -》 getMapper(xxx) 不需要配置扫描
+    -->
+
+    <conetxt:property-placeholder location="classpath:jdbc.properties" />
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}" />
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+    </bean>
+
+    <!-- mybatis
+         sqlSessionFactory
+             //加载类的时候,会触发,且触发一次!
+            InputStream ips = null;
+            try {
+                //写死. 以后mybatis
+                ips = Resources.getResourceAsStream("mybatis-config.xml");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            //2.创建一个SqlSessionFactoryBuilder
+            //方法内,用完就扔!
+            SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
+            //3.根据配置文件,创建SqlSessionFactory
+            sqlSessionFactory = sqlSessionFactoryBuilder.build(ips);
+        FactoryBean ：工厂组件 -》 按照你的逻辑创建对象 -》 getObject() -> <bean
+        BeanFactory : ioc容器
+           
+           
+           sqlSessionFactory
+           sqlSession
+           mapper代理对象-》getMapper()
+           
+           service -> mapper 
+             mapper mapper;
+        
+    -->
+
+    <bean  id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 1. mybatis的配置文件给他
+               除了数据库的环境（连接池） | mapperxml指定的标签以外！
+               settings | typeAliases | plugins
+         -->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <!-- 2. 替换druidDataSource  别忘了，删除mybatis配置文件的数据库环境 -->
+        <property name="dataSource" ref="dataSource" />
+        <!-- 3. 指定mapperxml所在的位置-->
+        <property name="mapperLocations" value="classpath:mappers/*.xml" />
+    </bean>
+    
+    
+    <!--mapper代理对象
+        com.atguigu.mapper包
+            xxMapper -> getMapper() -> ioc容器
+            jjMapper -> getMapper() -> ioc容器
+    -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.atguigu.mapper" />
+    </bean>
+
+
+</beans>

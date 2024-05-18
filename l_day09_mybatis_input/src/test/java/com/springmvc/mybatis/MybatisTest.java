@@ -74,6 +74,16 @@ public class MybatisTest {
     }
 
 
+    @Test
+    public void test_06(){
+        int i = 0;
+        int a = i++;
+        int b = a++;
+        int c = i;
+        System.out.println("c = " + c);
+        System.out.println("b = " + b);
+        System.out.println("a = " + a);
+    }
 
 
 
