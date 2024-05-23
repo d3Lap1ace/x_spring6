@@ -38,6 +38,8 @@
         <module>x_spring_04_tx</module>
         <module>l_day07_springmvc_zohter_01</module>
         <module>x_spring_01_ioc_xml_01</module>
+        <module>x_spring_03_aop_xml</module>
+
 
     </modules>
     <properties>

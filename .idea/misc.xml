@@ -17,6 +17,7 @@
     <file type="web" url="file://$PROJECT_DIR$/l_day07_springmvc_zother_01" />
     <file type="web" url="file://$PROJECT_DIR$/l_day11_SSM_integration_01" />
     <file type="web" url="file://$PROJECT_DIR$/l_day11_SSM_integration_02" />
+    <file type="web" url="file://$PROJECT_DIR$/x_springMvc_01_recetion" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -41,6 +42,7 @@
         <option value="$PROJECT_DIR$/l_day14_springboot_customstarter/pom.xml" />
         <option value="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/l_day14_springboot_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/x_springMvc_01_recetion/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -53,6 +55,7 @@
         <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_04/pom.xml" />
         <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day07_springmvc_other/pom.xml" />
         <option value="$PROJECT_DIR$/l_day07_springmvc_zother_01/pom.xml" />
+        <option value="$PROJECT_DIR$/x_spring_02_aop_xml/pom.xml" />
       </set>
     </option>
   </component>

@@ -20,7 +20,7 @@ public class StudentDao {
 
     public void updataName(){
         String sql = "update students set name = ? where id = ?;";
-        int rows = jdbcTemplate.update(sql, "hhh", 2);
+        int rows = jdbcTemplate.update(sql, "maolizhi", 2);
         System.out.println("row = " + rows);
 
     }

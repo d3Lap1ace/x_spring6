@@ -1,6 +1,5 @@
 package com.javaee.annotation;
 
-import com.javaEE.annotation.config.springConfig;
 import com.javaEE.annotation.controller.UserController;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -23,20 +22,11 @@ import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 @SpringJUnitConfig(springTest.class)
 public class springTest {
     private Logger logger = LoggerFactory.getLogger(springTest.class);
-//    @Test
-//    public void test_01(){
-//        ApplicationContext context = new ClassPathXmlApplicationContext("spring_01.xml");
-//        UserController userController = context.getBean("userController", UserController.class);
-//        userController.controllerPrint();
-//        logger.info("执行成功");
-//    }
-
     @Test
-    public void test_02(){
-        ApplicationContext ac = new AnnotationConfigApplicationContext(springConfig.class);
-        UserController userController = ac.getBean(UserController.class);
+    public void test_01(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("springconfig.xml");
+        UserController userController = context.getBean("userController", UserController.class);
         userController.controllerPrint();
         logger.info("执行成功");
     }
-
 }

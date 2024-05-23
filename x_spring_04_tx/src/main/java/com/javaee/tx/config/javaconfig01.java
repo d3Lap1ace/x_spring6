@@ -26,7 +26,7 @@ public class javaconfig01 {
     @Bean("dataSource")
     public DataSource duril(@Value("${jdbc.url}") String url,
                             @Value("${jdbc.driver}") String driver,
-                            @Value("${jdbc.user}") String username,
+                            @Value("${jdbc.username}") String username,
                             @Value("${jdbc.password}") String password){
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setUrl(url);

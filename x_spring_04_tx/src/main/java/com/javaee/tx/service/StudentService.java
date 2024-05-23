@@ -20,7 +20,6 @@ public class StudentService {
     @Autowired
     private StudentDao studentDao;
 
-
     public void updata(){
         studentDao.updataName();
         System.out.println("----------------------");

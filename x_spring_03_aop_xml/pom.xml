@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.spring.xml</groupId>
-    <artifactId>x_spring_01_ioc_xml_01</artifactId>
+    <groupId>com.springaop.xml</groupId>
+    <artifactId>x_spring_03_aop_xml</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,15 +20,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.25</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>6.0.6</version>
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.2.8</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.6</version>
         </dependency>
     </dependencies>
 
