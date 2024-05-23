@@ -35,6 +35,12 @@
         <option value="$PROJECT_DIR$/l_day10_mybatis_dysql/pom.xml" />
         <option value="$PROJECT_DIR$/l_day11_SSM_integration_01/pom.xml" />
         <option value="$PROJECT_DIR$/l_day11_SSM_integration_02/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day13_springboot_base/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day13_springboot_properties/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day14_springboot_autoconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day14_springboot_customstarter/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day14_springboot_mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

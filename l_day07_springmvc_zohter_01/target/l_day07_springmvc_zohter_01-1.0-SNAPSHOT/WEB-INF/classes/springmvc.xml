@@ -11,14 +11,14 @@
     <mvc:default-servlet-handler/>
 
     <mvc:interceptors>
-
-
-
         <mvc:interceptor>
-            <mvc:mapping path="/user/**"/>
-            <mvc:exclude-mapping path="/user/show"/>
-            <mvc:exclude-mapping path="/user/show/xxx"/>
+            <mvc:mapping path="/employee/**"/>
+            <mvc:exclude-mapping path="/employee/show"/>
+            <mvc:exclude-mapping path="/employee/show/xxx"/>
             <bean class="com.springmvc.interceptors.MyInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"/>
+
 </beans>

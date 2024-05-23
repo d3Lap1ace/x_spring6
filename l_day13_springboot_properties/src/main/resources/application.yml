@@ -1,0 +1,9 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /boot
+my:
+  user:
+    age: 20
+    name: luke
+    gender: men
