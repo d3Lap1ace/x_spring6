@@ -22,6 +22,7 @@ public class MybatisTest {
     public void test_01() {
         SqlSession sqlSession = SqlSessionUtils.openAutoSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
         User user = new User();
         user.setName("elife");
         user.setSalary(9992.0);

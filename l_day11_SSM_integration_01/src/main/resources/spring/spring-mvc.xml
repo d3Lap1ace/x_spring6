@@ -5,9 +5,12 @@
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-
+<!-- package-scan 打工人 -->
 <context:component-scan base-package="com.ssm.controller,com.ssm.controlleradvice"/>
+    <!-- 高级经理和秘书-->
     <mvc:annotation-driven/>
+
+    <!-- web.xml-->
     <mvc:default-servlet-handler/>
 
 

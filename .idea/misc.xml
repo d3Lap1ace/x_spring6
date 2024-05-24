@@ -40,23 +40,10 @@
         <option value="$PROJECT_DIR$/l_day13_springboot_properties/pom.xml" />
         <option value="$PROJECT_DIR$/l_day14_springboot_autoconfig/pom.xml" />
         <option value="$PROJECT_DIR$/l_day14_springboot_customstarter/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/l_day14_springboot_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/x_springMvc_01_recetion/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_01/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_02/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_03/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day06_springmvc_base_04/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day06_spring_homework/l_day07_springmvc_other/pom.xml" />
-        <option value="$PROJECT_DIR$/l_day07_springmvc_zother_01/pom.xml" />
-        <option value="$PROJECT_DIR$/x_spring_02_aop_xml/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">

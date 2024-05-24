@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="l_day07_springmvc_zohter_01" />
+        <module name="order_service" />
         <module name="l_day10_mybatis_dysql" />
         <module name="common_service" />
         <module name="l_day09_mybatis_input" />
@@ -37,6 +38,7 @@
         <module name="l_day14_springboot_ssm" />
         <module name="x_spring_03_aop_xml" />
         <module name="l_day09_mybatis_homework" />
+        <module name="user_service" />
         <module name="l_day11_SSM_integration_02" />
         <module name="x_spring_03_aop_annotation" />
         <module name="l_day11_SSM_integration_01" />
@@ -52,10 +54,8 @@
       <module name="l_day07_springmvc_other" target="17" />
       <module name="l_day07_springmvc_zother_01" target="17" />
       <module name="l_day10_mybatis_x" target="17" />
-      <module name="order_service" target="17" />
       <module name="spring-aop-annotation" target="17" />
       <module name="spring_first" target="17" />
-      <module name="user_service" target="17" />
       <module name="x_spring_02_aop_xml" target="17" />
       <module name="x_spring_02_ioc_autowired" target="17" />
       <module name="x_spring_ioc_autowired" target="17" />
@@ -64,6 +64,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="l_day11_SSM_integration_02" options="" />
       <module name="l_day13_springboot_base" options="-parameters" />
       <module name="l_day13_springboot_properties" options="-parameters" />
       <module name="l_day14_springboot_autoconfig" options="-parameters" />

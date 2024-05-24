@@ -23,15 +23,13 @@ public class SqlSessionUtils {
 
     private static SqlSessionFactory sqlSessionFactory;
 
-    static {
-        InputStream ips = null;
-
+    static{
         try {
-            ips = Resources.getResourceAsStream("mybatis-config.xml");
+            InputStream iop = Resources.getResourceAsStream("mybatis-config.xml");
+            sqlSessionFactory  = new SqlSessionFactoryBuilder().build(iop);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        sqlSessionFactory = new SqlSessionFactoryBuilder().build(ips);
     }
 
     public static SqlSession openSession() {
@@ -45,5 +43,6 @@ public class SqlSessionUtils {
     public static void closeSession(SqlSession sqlSession) {
         sqlSession.close();
     }
+
 }
 

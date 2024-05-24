@@ -7,8 +7,8 @@
           <element id="module-output" name="day11-ssm-integration-01" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="day11-ssm-integration-01/web/Web" />
       <element id="javaee-facet-resources" facet="day11-ssm-integration-01/web/Web2" />
+      <element id="javaee-facet-resources" facet="day11-ssm-integration-01/web/Web" />
     </root>
   </artifact>
 </component>
