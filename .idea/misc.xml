@@ -17,7 +17,8 @@
     <file type="web" url="file://$PROJECT_DIR$/l_day07_springmvc_zother_01" />
     <file type="web" url="file://$PROJECT_DIR$/l_day11_SSM_integration_01" />
     <file type="web" url="file://$PROJECT_DIR$/l_day11_SSM_integration_02" />
-    <file type="web" url="file://$PROJECT_DIR$/x_springMvc_01_recetion" />
+    <file type="web" url="file://$PROJECT_DIR$/x_springMvc_01_request" />
+    <file type="web" url="file://$PROJECT_DIR$/x_springMvc_02_response" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -43,6 +44,8 @@
         <option value="$PROJECT_DIR$/l_day14_springboot_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/x_springMvc_01_recetion/pom.xml" />
+        <option value="$PROJECT_DIR$/x_springMvc_02_response/pom.xml" />
+        <option value="$PROJECT_DIR$/x_springMvc_01_request/pom.xml" />
       </list>
     </option>
   </component>
