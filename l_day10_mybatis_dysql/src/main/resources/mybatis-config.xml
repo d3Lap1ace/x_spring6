@@ -16,17 +16,9 @@
         <setting name="aggressiveLazyLoading" value="true"/>
     </settings>
 
-
-
-
     <typeAliases>
         <package name="com.atguigu.pojo"/>
     </typeAliases>
-
-
-
-
-
 
     <plugins>
         <plugin interceptor="com.github.pagehelper.PageInterceptor">

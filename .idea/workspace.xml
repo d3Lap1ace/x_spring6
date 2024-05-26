@@ -9,30 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day15 version 0.9.28">
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/java/org/springMvc/response/config/Mvcconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/java/org/springMvc/response/config/SpringMvcClnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/java/org/springMvc/response/json/JsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/java/org/springMvc/response/jsp/JsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/java/org/springMvc/response/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/resources/springMvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_springMvc_02_response/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_02_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_02_war_exploded.xml" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="spring redis version 0.95">
+      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/utils/SqlSessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_01_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_01_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_01_recetion/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_springMvc_01_request/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_01_recetion/src/main/java/com/springMvc/recetion/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_springMvc_01_request/src/main/java/com/springMvc/recetion/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_01_recetion/src/main/java/com/springMvc/recetion/CookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_springMvc_01_request/src/main/java/com/springMvc/recetion/CookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_01_recetion/src/main/java/com/springMvc/recetion/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_springMvc_01_request/src/main/java/com/springMvc/recetion/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_01_recetion/src/main/java/com/springMvc/recetion/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_springMvc_01_request/src/main/java/com/springMvc/recetion/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_01_recetion/src/main/resources/springMvcIoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_springMvc_01_request/src/main/resources/springMvcIoc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_01_recetion/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_springMvc_01_request/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_day10_mybatis_dysql/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day10_mybatis_dysql/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,7 @@
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="xxxmapper" />
       </list>
     </option>
   </component>
@@ -103,8 +93,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.13135593",
     "project.structure.side.proportion": "0.30494297",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "40ce13fd4a5fac084ab99e6bc4a40b41",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "ab3c3d507a8946ccaf82ec1d260ee1b5",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -398,6 +388,7 @@
       <workItem from="1716460201120" duration="6519000" />
       <workItem from="1716558588689" duration="988000" />
       <workItem from="1716559580078" duration="5162000" />
+      <workItem from="1716630784413" duration="6368000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -483,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716558682201</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="spring redis version 0.95">
+      <created>1716630874643</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716630874643</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +509,8 @@
     <MESSAGE value="day10 version 0.9.23" />
     <MESSAGE value="day15 version 0.9.27" />
     <MESSAGE value="day15 version 0.9.28" />
-    <option name="LAST_COMMIT_MESSAGE" value="day15 version 0.9.28" />
+    <MESSAGE value="spring redis version 0.95" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring redis version 0.95" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

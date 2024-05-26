@@ -33,6 +33,7 @@
         <module name="l_day07_springmvc_restful_01" />
         <module name="x_spring_02_ioc_annotation" />
         <module name="l-day03-homework-spring-ioc-xml" />
+        <module name="x_mybatis_01_base" />
         <module name="l_day02_maven_01" />
         <module name="l_day13_springboot_properties" />
         <module name="l_day10_mybatis_distribution" />
