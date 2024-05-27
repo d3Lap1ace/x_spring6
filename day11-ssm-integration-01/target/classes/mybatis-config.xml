@@ -3,7 +3,6 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    
     <settings>
         <!-- 开启mybatis执行过程的日志输出!
              value="STDOUT_LOGGING" 代表要输出到idea的控制台
@@ -19,5 +18,12 @@
     <typeAliases>
         <package name="com.atguigu.pojo"/>
     </typeAliases>
+
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
+
 
 </configuration>

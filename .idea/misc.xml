@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day11-ssm-integration-01" />
+    <file type="web" url="file://$PROJECT_DIR$/day11-ssm-integration-02" />
     <file type="web" url="file://$PROJECT_DIR$/l_day01_maven_01" />
     <file type="web" url="file://$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service" />
     <file type="web" url="file://$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service" />
@@ -17,6 +19,7 @@
     <file type="web" url="file://$PROJECT_DIR$/l_day07_springmvc_zother_01" />
     <file type="web" url="file://$PROJECT_DIR$/l_day11_SSM_integration_01" />
     <file type="web" url="file://$PROJECT_DIR$/l_day11_SSM_integration_02" />
+    <file type="web" url="file://$PROJECT_DIR$/x_springMvc_01_recetion" />
     <file type="web" url="file://$PROJECT_DIR$/x_springMvc_01_request" />
     <file type="web" url="file://$PROJECT_DIR$/x_springMvc_02_response" />
   </component>
@@ -44,9 +47,15 @@
         <option value="$PROJECT_DIR$/l_day14_springboot_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/x_springMvc_01_recetion/pom.xml" />
-        <option value="$PROJECT_DIR$/x_springMvc_02_response/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day15_redis_bootredis/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day15_redis_jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day16_redis_luc/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day16_redis_tx/pom.xml" />
         <option value="$PROJECT_DIR$/x_springMvc_01_request/pom.xml" />
+        <option value="$PROJECT_DIR$/x_springMvc_02_response/pom.xml" />
         <option value="$PROJECT_DIR$/x_mybatis_01_base/pom.xml" />
+        <option value="$PROJECT_DIR$/day11-ssm-integration-01/pom.xml" />
+        <option value="$PROJECT_DIR$/day11-ssm-integration-02/pom.xml" />
       </list>
     </option>
   </component>

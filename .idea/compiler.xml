@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="l_day16_redis_luc" />
         <module name="l_day07_springmvc_zohter_01" />
         <module name="order_service" />
         <module name="l_day10_mybatis_dysql" />
@@ -19,6 +20,7 @@
         <module name="x_spring_01_ioc_xml_01" />
         <module name="l_day05_spring_tx" />
         <module name="l_day13_springboot_base" />
+        <module name="l_day15_redis_jedis" />
         <module name="l_day03_homework_spring_ioc_xml" />
         <module name="l_day08_springmvc_mybatis_02" />
         <module name="l_day09_mybatis_output" />
@@ -27,12 +29,14 @@
         <module name="l_day08_springmvc_mybatis_01" />
         <module name="x_spring_01_ioc_xml" />
         <module name="x_springMvc_01_request" />
+        <module name="l_day15_redis_bootredis" />
         <module name="l_day04_spring_aop_01" />
         <module name="l_day14_springboot_customstarter" />
         <module name="x_spring_04_tx" />
         <module name="l_day07_springmvc_restful_01" />
         <module name="x_spring_02_ioc_annotation" />
         <module name="l-day03-homework-spring-ioc-xml" />
+        <module name="l_day16_redis_tx" />
         <module name="x_mybatis_01_base" />
         <module name="l_day02_maven_01" />
         <module name="l_day13_springboot_properties" />
@@ -41,6 +45,8 @@
         <module name="x_spring_03_aop_xml" />
         <module name="l_day09_mybatis_homework" />
         <module name="user_service" />
+        <module name="day11-ssm-integration-01" />
+        <module name="day11-ssm-integration-02" />
         <module name="l_day11_SSM_integration_02" />
         <module name="x_spring_03_aop_annotation" />
         <module name="l_day11_SSM_integration_01" />
@@ -62,6 +68,7 @@
       <module name="x_spring_02_ioc_autowired" target="17" />
       <module name="x_spring_ioc_autowired" target="17" />
       <module name="x_springboot_01" target="17" />
+      <module name="x_springMvc_01_recetion" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -73,6 +80,10 @@
       <module name="l_day14_springboot_customstarter" options="-parameters" />
       <module name="l_day14_springboot_mybatis" options="-parameters" />
       <module name="l_day14_springboot_ssm" options="-parameters" />
+      <module name="l_day15_redis_bootredis" options="-parameters" />
+      <module name="l_day15_redis_jedis" options="-parameters" />
+      <module name="l_day16_redis_luc" options="-parameters" />
+      <module name="l_day16_redis_tx" options="-parameters" />
       <module name="x_springboot_01" options="-parameters" />
     </option>
   </component>

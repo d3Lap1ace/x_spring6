@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://E:/repository/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day11-ssm-integration-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day11-ssm-integration-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day11-ssm-integration-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day11-ssm-integration-02/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/l_day01_maven_01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/l_day01_maven_01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/l_day01_maven_02/src/main/java" charset="UTF-8" />
@@ -84,6 +89,15 @@
     <file url="file://$PROJECT_DIR$/l_day14_springboot_mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/l_day14_springboot_ssm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/l_day14_springboot_ssm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day15_redis_bootredis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day15_redis_bootredis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day15_redis_jedis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day15_redis_jedis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day15_redis_test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day16_redis_luc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day16_redis_luc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day16_redis_tx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l_day16_redis_tx/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop-annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
