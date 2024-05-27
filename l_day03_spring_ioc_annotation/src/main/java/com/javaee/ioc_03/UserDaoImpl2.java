@@ -13,4 +13,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class UserDaoImpl2 implements UserDao{
+    @Override
+    public void say() {
+        System.out.println("UserDaoImpl2.say");
+    }
 }

@@ -24,4 +24,9 @@ public class UserServiceImpl {
     public boolean eq(UserDao userDao){
         return userDao == this.userDao;
     }
+
+    public void usersay(UserDao userDao){
+        userDao.say();
+    }
+
 }

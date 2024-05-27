@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * From the Laplace Demon
  */
 
-@Service
+@Service(value = "serviceDog")
 public class SoldierService {
 
     @Autowired

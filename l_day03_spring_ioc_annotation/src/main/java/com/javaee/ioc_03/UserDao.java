@@ -9,4 +9,5 @@ package com.javaee.ioc_03;
  * From the Laplace Demon
  */
 public interface UserDao {
+    public void say();
 }

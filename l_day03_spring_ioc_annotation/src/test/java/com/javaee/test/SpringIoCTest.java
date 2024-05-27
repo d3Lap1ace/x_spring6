@@ -31,9 +31,9 @@ public class SpringIoCTest {
     public void test_02(){
         ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("spring_02.xml");
         UserServiceImpl userService = ac.getBean(UserServiceImpl.class);
-        UserDao userDao = ac.getBean("userDaoImpl", UserDao.class);
-
+        UserDao userDao = ac.getBean("userDaoImpl2", UserDao.class);
         System.out.println(userService.eq(userDao));
+        userService.usersay(userDao);
     }
     @Test
     public void test_03(){

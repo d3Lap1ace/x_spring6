@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
 @Controller(value = "controlDog")
 public class SoldierController {
 
-    @Autowired
+
     private SoldierService soldierService;
 
     @Autowired

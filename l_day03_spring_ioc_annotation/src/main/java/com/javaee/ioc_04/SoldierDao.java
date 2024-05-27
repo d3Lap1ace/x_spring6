@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
  * From the Laplace Demon
  */
 
-@Repository
+@Repository(value = "daoDog")
 public class SoldierDao {
     public void getMessage(){
         System.out.println("i am a soidier");

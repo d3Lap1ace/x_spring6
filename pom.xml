@@ -39,6 +39,7 @@
         <module>l_day07_springmvc_zohter_01</module>
         <module>x_spring_01_ioc_xml_01</module>
         <module>x_spring_03_aop_xml</module>
+        <module>x_spring_02_ioc_config</module>
 
 
     </modules>
