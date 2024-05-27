@@ -2,6 +2,7 @@ package com.springTest;
 
 import com.spring.xml.ioc01.HelloXml;
 import com.spring.xml.ioc02.User;
+import com.spring.xml.ioc03.HappyFactoryBean;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -38,11 +39,27 @@ public class SpringTestXml {
 
     @Test
     public void test_03() throws SQLException {
-        ApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("springIOc01.xml");
+        ApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("springIoc01.xml");
         DataSource dataSource = classPathXmlApplicationContext.getBean(DataSource.class);
         Connection connection = dataSource.getConnection();
         System.out.println("connection = " + connection);
+    }
 
+    @Test
+    public void test_04(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("springIoc01.xml");
+        HappyFactoryBean happyFactoryBean = ac.getBean("happyFactoryBean", HappyFactoryBean.class);
+        System.out.println("happyFactoryBean = " + happyFactoryBean);
+
+        Object bean = ac.getBean("&happyFactoryBean");
+        System.out.println("bean = " + bean);
+    }
+    
+    @Test
+    public void test_05(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("springIoc01.xml");
+        HappyFactoryBean happyFactoryBean1 = ac.getBean("happyFactoryBean1", HappyFactoryBean.class);
+        System.out.println("happyFactoryBean1 = " + happyFactoryBean1);
     }
 
 }

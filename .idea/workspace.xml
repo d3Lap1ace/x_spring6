@@ -9,109 +9,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day15 springboot  0.9.3">
-      <change afterPath="$PROJECT_DIR$/l_day13_springboot_properties/l_day13_springboot_properties.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day14_springboot_autoconfig/l_day14_springboot_autoconfig.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day14_springboot_customstarter/l_day14_springboot_customstarter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day14_springboot_ssm/l_day14_springboot_ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_bootredis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_bootredis/src/main/java/com/bootredis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_bootredis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_bootredis/src/test/java/com/redis/test/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_bootredis/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_jedis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_jedis/src/main/java/com/redis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day15_redis_jedis/src/test/java/com/redis/test/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_luc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_luc/src/main/java/com/redis/luc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_luc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_luc/src/main/resources/luas/test.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_luc/src/test/java/com/redis/lucTest/RedisLucTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_tx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_tx/src/main/java/com/redis/tx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_tx/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l_day16_redis_tx/src/test/java/com/redis/txTest/RedisTxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_01_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_01_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_02_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/day11_ssm_integration_02_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="day17 version 9.1">
+      <change afterPath="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/common_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l_day16_redis_tx/l_day16_redis_tx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/x_spring_01_ioc_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml_01/src/main/java/com/spring/xml/ioc03/HappyFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/day11-ssm-integration-01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/com/atguigu/controller/EmpController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/com/atguigu/mapper/EmpMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/com/atguigu/pojo/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/com/atguigu/service/EmpService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/com/atguigu/service/impl/EmpServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day11-ssm-integration-01/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/controller/EmpController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/mapper/EmpMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/pojo/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/EmpService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/service/impl/EmpServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/mappers/EmpMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/druid-1.2.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-8.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-annotation-processor-8.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.15.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.15.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.15.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jakarta.el-api-5.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/micrometer-commons-1.10.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/micrometer-observation-1.10.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-context-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-core-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-web-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-6.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-01/target/day11-ssm-integration-01-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-02/day11-ssm-integration-02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-02/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day11-ssm-integration-02/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-ssm-integration-02/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day11-ssm-integration-02/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/order_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day13_springboot_base/l_day13_springboot_base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day13_springboot_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day13_springboot_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day13_springboot_properties/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day13_springboot_properties/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day14_springboot_autoconfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day14_springboot_autoconfig/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day14_springboot_customstarter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day14_springboot_customstarter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day14_springboot_mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day14_springboot_mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l_day14_springboot_ssm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_springMvc_02_response.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/springIoc3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/src/main/resources/springIoc3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/springIoc3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/springIoc3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml_01/src/main/resources/springIoc01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml_01/src/main/resources/springIoc01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml_01/src/test/java/com/springTest/SpringTestXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml_01/src/test/java/com/springTest/SpringTestXml.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +43,8 @@
         <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="mybatis-01" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -173,17 +91,17 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/be_encoding/javaEE/x_spring6/l_day13_springboot_base",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.13135593",
     "project.structure.side.proportion": "0.30494297",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "e69340f29ecbf7e96b6f4aba3f693b03",
+    "settings.editor.selected.configurable": "terminal",
+    "spring.configuration.checksum": "25825f56ac8ba7737aafb2d13c7d4c6b",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -225,7 +143,7 @@
       <recent name="com.mybatisHw.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.23">
+  <component name="RunManager" selected="JUnit.SpringTestXml.test_04">
     <configuration name="Junit-test" type="JUnit" factoryName="JUnit">
       <module name="l_day02_spring_ioc_xml" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -263,26 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.test_03 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day10_mybatis_distribution" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
-      <option name="METHOD_NAME" value="test_03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day10_mybatis_distribution" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
-      <option name="METHOD_NAME" value="test_04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisTest.test_06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="l_day09_mybatis_input" />
       <extension name="coverage">
@@ -294,6 +192,38 @@
       <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
       <option name="METHOD_NAME" value="test_06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestXml.test_03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_spring_01_ioc_xml_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springTest" />
+      <option name="MAIN_CLASS_NAME" value="com.springTest.SpringTestXml" />
+      <option name="METHOD_NAME" value="test_03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestXml.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_spring_01_ioc_xml_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springTest" />
+      <option name="MAIN_CLASS_NAME" value="com.springTest.SpringTestXml" />
+      <option name="METHOD_NAME" value="test_04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -388,24 +318,27 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Junit-test" />
+      <item itemvalue="JUnit.SpringTestXml.test_03" />
+      <item itemvalue="JUnit.SpringTestXml.test_04" />
       <item itemvalue="JUnit.MybatisTest" />
       <item itemvalue="JUnit.MybatisTest.test_06" />
       <item itemvalue="JUnit.MybatisTest.test_01" />
-      <item itemvalue="JUnit.MybatisTest.test_03 (1)" />
-      <item itemvalue="JUnit.MybatisTest.test_04" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.23" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringTestXml.test_04" />
+        <item itemvalue="JUnit.SpringTestXml.test_03" />
         <item itemvalue="JUnit.MybatisTest.test_06" />
         <item itemvalue="JUnit.MybatisTest" />
         <item itemvalue="JUnit.MybatisTest.test_01" />
-        <item itemvalue="JUnit.MybatisTest.test_04" />
-        <item itemvalue="JUnit.MybatisTest.test_03 (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\d3lap1ace\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="" />
@@ -474,6 +407,8 @@
       <workItem from="1716012210241" duration="10027000" />
       <workItem from="1716459674416" duration="514000" />
       <workItem from="1716460201120" duration="6519000" />
+      <workItem from="1716789165065" duration="2519000" />
+      <workItem from="1716797417377" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -552,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715939716366</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day17 version 9.1">
+      <created>1716769390286</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716769390286</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +521,8 @@
     <MESSAGE value="day09 mybatis version 1.0" />
     <MESSAGE value="day10 version 0.9.23" />
     <MESSAGE value="day15 version 0.9.27" />
-    <option name="LAST_COMMIT_MESSAGE" value="day15 version 0.9.27" />
+    <MESSAGE value="day17 version 9.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day17 version 9.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

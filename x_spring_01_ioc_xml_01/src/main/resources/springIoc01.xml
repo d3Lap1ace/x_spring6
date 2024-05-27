@@ -27,4 +27,17 @@
         <property name="username" value="${jdbc.username}"/>
         <property name="password" value="${jdbc.password}"/>
     </bean>
+
+    <bean id="happyFactoryBean" class="com.spring.xml.ioc03.HappyFactoryBean">
+        <property name="machineName" value="iceCreamMachine"/>
+    </bean>
+
+    <bean id="happyFactoryBean2" scope="singleton" class="com.spring.xml.ioc03.HappyFactoryBean">
+        <property name="machineName" value="iceCreamMahcine_01"/>
+    </bean>
+
+    <bean id="happyFactoryBean3" scope="prototype" class="com.spring.xml.ioc03.HappyFactoryBean">
+        <property name="machineName" value="iceCreamMachine_02"/>
+    </bean>
+
 </beans>
