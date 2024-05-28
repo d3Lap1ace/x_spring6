@@ -1,4 +1,4 @@
-package com.mybatisx.utils;
+package com.impower.mybatis.utils;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -7,7 +7,6 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
-
 
 /**
  * @classname x_spring6

@@ -10,34 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="version 0.9.1.1">
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config/src/main/java/com/spring/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config/src/main/java/com/spring/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config/src/main/java/com/spring/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config/src/main/java/com/spring/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_spring_02_ioc_config/src/test/java/com/spring/springIocTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/test/java/com/springmvc/mybatis/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/java/com/impower/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/java/com/impower/mybatis/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/java/com/impower/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/test/java/com/springmvc/mybatis/MybatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserDaoImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_03/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/main/java/com/javaee/ioc_04/SoldierService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/test/java/com/javaee/test/SpringIoCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/src/test/java/com/javaee/test/SpringIoCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserDaoImpl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_03/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_04/SoldierController.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_04/SoldierController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_04/SoldierDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_04/SoldierDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_04/SoldierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/classes/com/javaee/ioc_04/SoldierService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/test-classes/com/javaee/test/SpringIoCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/l_day03_spring_ioc_annotation/target/test-classes/com/javaee/test/SpringIoCTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/utils/SqlSessionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/utils/SqlSessionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/bean.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +42,8 @@
         <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="mybatis-01" />
         <option value="spring-beans.schema" />
+        <option value="mybatis-01" />
         <option value="Class" />
       </list>
     </option>
@@ -77,6 +68,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2fwUYCQAmg2fTEfnWVb7buFgFtk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -96,7 +90,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6/x_mybatis_01_base/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,7 +100,7 @@
     "project.structure.proportion": "0.13135593",
     "project.structure.side.proportion": "0.30494297",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "8d4cb671884d2b09ea776a3addeef987",
+    "spring.configuration.checksum": "3efc91f9754b7d3ecc9816b1dc0dac7b",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -117,18 +111,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\be_encode\javaEE\x_spring6\x_mybatis_01_base\src" />
       <recent name="F:\be_encode\javaEE\x_spring6\l_day11_SSM_integration_02\src\main\resources" />
       <recent name="F:\be_encode\javaEE\x_spring6\l_day11_SSM_integration_01\src\main\resources" />
       <recent name="F:\be_encode\javaEE\x_spring6\l_day10_mybatis_dysql\src\main\resources" />
       <recent name="F:\be_encode\javaEE\x_spring6\l_day10_mybatis_distribution\src\main\java\com\mybatis" />
-      <recent name="F:\be_encode\javaEE\x_spring6\l_day10_mybatis_distribution\src\main\java\com\mybatis\pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\be_encode\javaEE\x_spring6\x_mybatis_02_base\src\main\resources\mappers" />
       <recent name="F:\be_encode\javaEE\x_spring6\l_day11_SSM_integration_01\src\main\resources\spring" />
       <recent name="F:\be_encode\javaEE\x_spring6\l_day11_SSM_integration_01\src\main\resources" />
       <recent name="F:\be_encode\javaEE\x_spring6" />
       <recent name="F:\be_encode\javaEE\x_spring6\L_day06_springmvc_base_01\src\main\webapp" />
-      <recent name="F:\be_encode\javaEE\x_spring6\L_day06_springmvc_base_01\src\main" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -141,14 +135,14 @@
       <recent name="com.javaeemvc.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.impower.mybatis.utils" />
       <recent name="com.utils" />
       <recent name="" />
       <recent name="com.mybatis" />
       <recent name="com.mybatis.utils" />
-      <recent name="com.mybatisHw.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.springIocTest.test_01">
+  <component name="RunManager" selected="JUnit.MybatisTest.test_02">
     <configuration name="Junit-test" type="JUnit" factoryName="JUnit">
       <module name="l_day02_spring_ioc_xml" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -161,81 +155,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringIoCTest.test_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day03_spring_ioc_annotation" />
+    <configuration name="MybatisTest.test_01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_mybatis_02_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.test.*" />
+          <option name="PATTERN" value="com.springmvc.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.test" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.test.SpringIoCTest" />
+      <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
       <option name="METHOD_NAME" value="test_01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringIoCTest.test_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day03_spring_ioc_annotation" />
+    <configuration name="MybatisTest.test_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_mybatis_01_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.test.*" />
+          <option name="PATTERN" value="com.springmvc.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.test" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.test.SpringIoCTest" />
+      <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="test_01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.test_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_mybatis_01_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springmvc.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
       <option name="METHOD_NAME" value="test_02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringIoCTest.test_03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day03_spring_ioc_annotation" />
+    <configuration name="MybatisTest.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day09_mybatis_input" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaee.test.*" />
+          <option name="PATTERN" value="com.springmvc.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.test" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.test.SpringIoCTest" />
-      <option name="METHOD_NAME" value="test_03" />
+      <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="test_04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="springIocTest.test_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="x_spring_02_ioc_config" />
+    <configuration name="MybatisTest.test_05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="l_day09_mybatis_homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.mybatisTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.springIocTest" />
-      <option name="METHOD_NAME" value="test_01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="springTest.test_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="x_spring_02_ioc_annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaee.annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.annotation" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.annotation.springTest" />
-      <option name="METHOD_NAME" value="test_01" />
+      <option name="PACKAGE_NAME" value="com.mybatisTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatisTest.MybatisTest" />
+      <option name="METHOD_NAME" value="test_05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,20 +324,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Junit-test" />
-      <item itemvalue="JUnit.springIocTest.test_01" />
-      <item itemvalue="JUnit.SpringIoCTest.test_01" />
-      <item itemvalue="JUnit.SpringIoCTest.test_02" />
-      <item itemvalue="JUnit.SpringIoCTest.test_03" />
-      <item itemvalue="JUnit.springTest.test_01" />
+      <item itemvalue="JUnit.MybatisTest.test_01" />
+      <item itemvalue="JUnit.MybatisTest.test_01 (1)" />
+      <item itemvalue="JUnit.MybatisTest.test_02" />
+      <item itemvalue="JUnit.MybatisTest.test_04" />
+      <item itemvalue="JUnit.MybatisTest.test_05" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.23" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.springIocTest.test_01" />
-        <item itemvalue="JUnit.SpringIoCTest.test_02" />
-        <item itemvalue="JUnit.SpringIoCTest.test_03" />
-        <item itemvalue="JUnit.springTest.test_01" />
-        <item itemvalue="JUnit.SpringIoCTest.test_01" />
+        <item itemvalue="JUnit.MybatisTest.test_02" />
+        <item itemvalue="JUnit.MybatisTest.test_01 (1)" />
+        <item itemvalue="JUnit.MybatisTest.test_01" />
+        <item itemvalue="JUnit.MybatisTest.test_05" />
+        <item itemvalue="JUnit.MybatisTest.test_04" />
       </list>
     </recent_temporary>
   </component>
@@ -425,6 +419,17 @@
       <workItem from="1716813101147" duration="2005000" />
       <workItem from="1716815122662" duration="78000" />
       <workItem from="1716815215495" duration="1379000" />
+      <workItem from="1716858768837" duration="792000" />
+      <workItem from="1716860098016" duration="17000" />
+      <workItem from="1716860918978" duration="7000" />
+      <workItem from="1716861497542" duration="14000" />
+      <workItem from="1716861536460" duration="12000" />
+      <workItem from="1716861576768" duration="13000" />
+      <workItem from="1716861668939" duration="17000" />
+      <workItem from="1716864833117" duration="70000" />
+      <workItem from="1716864928369" duration="40000" />
+      <workItem from="1716865031635" duration="3230000" />
+      <workItem from="1716885275080" duration="10893000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>

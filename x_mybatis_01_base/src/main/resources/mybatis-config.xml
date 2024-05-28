@@ -5,11 +5,12 @@
 
 <configuration>
     <settings>
-        <setting name="logimpl" value="STDOUT_LOGGING"/>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
-        <setting name="autoMappingBehavior" value="FULL"/>
-        <setting name="lazyLoadingEnabled" value="true"/>
-        <setting name="aggressiveLazyLoading" value="true"/>
+<!--        <setting name="logimpl" value="STDOUT_LOGGING"/>-->
+<!--        <setting name="autoMappingBehavior" value="FULL"/>-->
+
+<!--        <setting name="lazyLoadingEnabled" value="true"/>-->
+<!--        <setting name="aggressiveLazyLoading" value="true"/>-->
     </settings>
     
     <typeAliases>
@@ -31,7 +32,7 @@
     </environments>
     
     <mappers>
-        <package name="com.mybatisx.mapper"/>
+        <mapper resource="mappers/UserMapper.xml"/>
     </mappers>
     
 </configuration>

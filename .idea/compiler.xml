@@ -26,6 +26,7 @@
         <module name="l_day08_springmvc_mybatis_02" />
         <module name="l_day09_mybatis_output" />
         <module name="l_day14_springboot_mybatis" />
+        <module name="x_mybatis_02_base" />
         <module name="l_day03_spring_ioc_annotation" />
         <module name="l_day08_springmvc_mybatis_01" />
         <module name="x_spring_01_ioc_xml" />

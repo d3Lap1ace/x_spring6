@@ -1,6 +1,7 @@
 package com.mybatisx.pojo;
 
 import lombok.Data;
+import org.apache.ibatis.type.Alias;
 
 /**
  * @classname x_spring6
@@ -11,11 +12,12 @@ import lombok.Data;
  * From the Laplace Demon
  */
 
+
 @Data
 public class User {
-    private Integer id;
-    private String name;
-    private Integer age;
-    private String hooby;
-    private Integer score;
+    private Integer uId;
+    private String uName;
+    private Integer uAge;
+    private String uGender;
+    private String uHooby;
 }

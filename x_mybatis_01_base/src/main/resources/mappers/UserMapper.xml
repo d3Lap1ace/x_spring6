@@ -2,10 +2,15 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mybatis.mapper.UserMapper">
+<mapper namespace="com.mybatisx.mapper.UserMapper">
 
-    <select id="insertUser" resultType="user">
-        select
+    <insert id="insertUser">
+        insert into user(u_id,user_name,u_age,u_gender,u_hooby)
+        values(#{id},#{name},#{age},#{gender},#{hooby})
+    </insert>
+
+    <select id="queryById" resultType="user">
+        select u_id ,u_name ,u_age ,u_gender ,u_hooby  from user where u_id =#{uid}
     </select>
 
 
