@@ -57,7 +57,15 @@
         <option value="$PROJECT_DIR$/day11-ssm-integration-01/pom.xml" />
         <option value="$PROJECT_DIR$/day11-ssm-integration-02/pom.xml" />
         <option value="$PROJECT_DIR$/x_mybatis_02_base/pom.xml" />
+        <option value="$PROJECT_DIR$/x_mybatisx_01_base/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/common_service/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/l_day02_homekwork_meven_01/user_service/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">

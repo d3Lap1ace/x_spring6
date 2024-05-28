@@ -9,26 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="version 0.9.1.1">
-      <change afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/test/java/com/springmvc/mybatis/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/java/com/impower/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/java/com/impower/mybatis/pojo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/java/com/impower/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatis_02_base/src/test/java/com/springmvc/mybatis/MybatisTest.java" afterDir="false" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="version 0.9.1.2">
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/impower/mabatisx/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/utils/SqlSessionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/utils/SqlSessionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_spring_01_ioc_xml/target/classes/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_spring_02_ioc_config.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +79,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6/x_mybatis_01_base/src",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +88,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.13135593",
     "project.structure.side.proportion": "0.30494297",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "com.gitee.ui.GiteeSettingsConfigurable",
     "spring.configuration.checksum": "3efc91f9754b7d3ecc9816b1dc0dac7b",
     "vue.rearranger.settings.migration": "true"
   },
@@ -429,7 +418,8 @@
       <workItem from="1716864833117" duration="70000" />
       <workItem from="1716864928369" duration="40000" />
       <workItem from="1716865031635" duration="3230000" />
-      <workItem from="1716885275080" duration="10893000" />
+      <workItem from="1716885275080" duration="11444000" />
+      <workItem from="1716899011436" duration="2851000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -522,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716805976566</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="version 0.9.1.2">
+      <created>1716898390447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716898390447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +530,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -551,7 +560,8 @@
     <MESSAGE value="day15 version 0.9.27" />
     <MESSAGE value="day17 version 9.1" />
     <MESSAGE value="version 0.9.1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.9.1.1" />
+    <MESSAGE value="version 0.9.1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.9.1.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
