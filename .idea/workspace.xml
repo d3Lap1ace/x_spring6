@@ -10,14 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="version 0.9.1.2">
-      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/impower/mabatisx/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x_spring_02_ioc_config.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/ApartmentInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/CityInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/DistrictInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/FacilityInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/LabelInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/ProvinceInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/RoomInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/ApartmentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/CityInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/DistrictInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/FacilityInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/LabelInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/ProvinceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/RoomInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/java/com/mybatis/pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/ApartmentInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/CityInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/DistrictInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/FacilityInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/LabelInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/ProvinceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/RoomInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x_mybatisx_01_base/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +90,6 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -419,7 +434,7 @@
       <workItem from="1716864928369" duration="40000" />
       <workItem from="1716865031635" duration="3230000" />
       <workItem from="1716885275080" duration="11444000" />
-      <workItem from="1716899011436" duration="2851000" />
+      <workItem from="1716899011436" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -519,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716898390447</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="version 0.9.1.2">
+      <created>1716902528625</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716902528625</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

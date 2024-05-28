@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.ApartmentInfoMapper">
+
+    <resultMap id="BaseResultMap" type="com.mybatis.pojo.ApartmentInfo">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="introduction" column="introduction" jdbcType="VARCHAR"/>
+            <result property="districtId" column="district_id" jdbcType="BIGINT"/>
+            <result property="districtName" column="district_name" jdbcType="VARCHAR"/>
+            <result property="cityId" column="city_id" jdbcType="BIGINT"/>
+            <result property="cityName" column="city_name" jdbcType="VARCHAR"/>
+            <result property="provinceId" column="province_id" jdbcType="BIGINT"/>
+            <result property="provinceName" column="province_name" jdbcType="VARCHAR"/>
+            <result property="addressDetail" column="address_detail" jdbcType="VARCHAR"/>
+            <result property="latitude" column="latitude" jdbcType="VARCHAR"/>
+            <result property="longitude" column="longitude" jdbcType="VARCHAR"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+            <result property="isRelease" column="is_release" jdbcType="TINYINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+            <result property="isDeleted" column="is_deleted" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,introduction,
+        district_id,district_name,city_id,
+        city_name,province_id,province_name,
+        address_detail,latitude,longitude,
+        phone,is_release,create_time,
+        update_time,is_deleted
+    </sql>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from apartment_info
+        where  id = #{id,jdbcType=BIGINT} 
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete from apartment_info
+        where  id = #{id,jdbcType=BIGINT} 
+    </delete>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.mybatis.pojo.ApartmentInfo" useGeneratedKeys="true">
+        insert into apartment_info
+        ( id,name,introduction
+        ,district_id,district_name,city_id
+        ,city_name,province_id,province_name
+        ,address_detail,latitude,longitude
+        ,phone,is_release,create_time
+        ,update_time,is_deleted)
+        values (#{id,jdbcType=BIGINT},#{name,jdbcType=VARCHAR},#{introduction,jdbcType=VARCHAR}
+        ,#{districtId,jdbcType=BIGINT},#{districtName,jdbcType=VARCHAR},#{cityId,jdbcType=BIGINT}
+        ,#{cityName,jdbcType=VARCHAR},#{provinceId,jdbcType=BIGINT},#{provinceName,jdbcType=VARCHAR}
+        ,#{addressDetail,jdbcType=VARCHAR},#{latitude,jdbcType=VARCHAR},#{longitude,jdbcType=VARCHAR}
+        ,#{phone,jdbcType=VARCHAR},#{isRelease,jdbcType=TINYINT},#{createTime,jdbcType=TIMESTAMP}
+        ,#{updateTime,jdbcType=TIMESTAMP},#{isDeleted,jdbcType=TINYINT})
+    </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.mybatis.pojo.ApartmentInfo" useGeneratedKeys="true">
+        insert into apartment_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+                <if test="id != null">id,</if>
+                <if test="name != null">name,</if>
+                <if test="introduction != null">introduction,</if>
+                <if test="districtId != null">district_id,</if>
+                <if test="districtName != null">district_name,</if>
+                <if test="cityId != null">city_id,</if>
+                <if test="cityName != null">city_name,</if>
+                <if test="provinceId != null">province_id,</if>
+                <if test="provinceName != null">province_name,</if>
+                <if test="addressDetail != null">address_detail,</if>
+                <if test="latitude != null">latitude,</if>
+                <if test="longitude != null">longitude,</if>
+                <if test="phone != null">phone,</if>
+                <if test="isRelease != null">is_release,</if>
+                <if test="createTime != null">create_time,</if>
+                <if test="updateTime != null">update_time,</if>
+                <if test="isDeleted != null">is_deleted,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+                <if test="id != null">#{id,jdbcType=BIGINT},</if>
+                <if test="name != null">#{name,jdbcType=VARCHAR},</if>
+                <if test="introduction != null">#{introduction,jdbcType=VARCHAR},</if>
+                <if test="districtId != null">#{districtId,jdbcType=BIGINT},</if>
+                <if test="districtName != null">#{districtName,jdbcType=VARCHAR},</if>
+                <if test="cityId != null">#{cityId,jdbcType=BIGINT},</if>
+                <if test="cityName != null">#{cityName,jdbcType=VARCHAR},</if>
+                <if test="provinceId != null">#{provinceId,jdbcType=BIGINT},</if>
+                <if test="provinceName != null">#{provinceName,jdbcType=VARCHAR},</if>
+                <if test="addressDetail != null">#{addressDetail,jdbcType=VARCHAR},</if>
+                <if test="latitude != null">#{latitude,jdbcType=VARCHAR},</if>
+                <if test="longitude != null">#{longitude,jdbcType=VARCHAR},</if>
+                <if test="phone != null">#{phone,jdbcType=VARCHAR},</if>
+                <if test="isRelease != null">#{isRelease,jdbcType=TINYINT},</if>
+                <if test="createTime != null">#{createTime,jdbcType=TIMESTAMP},</if>
+                <if test="updateTime != null">#{updateTime,jdbcType=TIMESTAMP},</if>
+                <if test="isDeleted != null">#{isDeleted,jdbcType=TINYINT},</if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.mybatis.pojo.ApartmentInfo">
+        update apartment_info
+        <set>
+                <if test="name != null">
+                    name = #{name,jdbcType=VARCHAR},
+                </if>
+                <if test="introduction != null">
+                    introduction = #{introduction,jdbcType=VARCHAR},
+                </if>
+                <if test="districtId != null">
+                    district_id = #{districtId,jdbcType=BIGINT},
+                </if>
+                <if test="districtName != null">
+                    district_name = #{districtName,jdbcType=VARCHAR},
+                </if>
+                <if test="cityId != null">
+                    city_id = #{cityId,jdbcType=BIGINT},
+                </if>
+                <if test="cityName != null">
+                    city_name = #{cityName,jdbcType=VARCHAR},
+                </if>
+                <if test="provinceId != null">
+                    province_id = #{provinceId,jdbcType=BIGINT},
+                </if>
+                <if test="provinceName != null">
+                    province_name = #{provinceName,jdbcType=VARCHAR},
+                </if>
+                <if test="addressDetail != null">
+                    address_detail = #{addressDetail,jdbcType=VARCHAR},
+                </if>
+                <if test="latitude != null">
+                    latitude = #{latitude,jdbcType=VARCHAR},
+                </if>
+                <if test="longitude != null">
+                    longitude = #{longitude,jdbcType=VARCHAR},
+                </if>
+                <if test="phone != null">
+                    phone = #{phone,jdbcType=VARCHAR},
+                </if>
+                <if test="isRelease != null">
+                    is_release = #{isRelease,jdbcType=TINYINT},
+                </if>
+                <if test="createTime != null">
+                    create_time = #{createTime,jdbcType=TIMESTAMP},
+                </if>
+                <if test="updateTime != null">
+                    update_time = #{updateTime,jdbcType=TIMESTAMP},
+                </if>
+                <if test="isDeleted != null">
+                    is_deleted = #{isDeleted,jdbcType=TINYINT},
+                </if>
+        </set>
+        where   id = #{id,jdbcType=BIGINT} 
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.mybatis.pojo.ApartmentInfo">
+        update apartment_info
+        set 
+            name =  #{name,jdbcType=VARCHAR},
+            introduction =  #{introduction,jdbcType=VARCHAR},
+            district_id =  #{districtId,jdbcType=BIGINT},
+            district_name =  #{districtName,jdbcType=VARCHAR},
+            city_id =  #{cityId,jdbcType=BIGINT},
+            city_name =  #{cityName,jdbcType=VARCHAR},
+            province_id =  #{provinceId,jdbcType=BIGINT},
+            province_name =  #{provinceName,jdbcType=VARCHAR},
+            address_detail =  #{addressDetail,jdbcType=VARCHAR},
+            latitude =  #{latitude,jdbcType=VARCHAR},
+            longitude =  #{longitude,jdbcType=VARCHAR},
+            phone =  #{phone,jdbcType=VARCHAR},
+            is_release =  #{isRelease,jdbcType=TINYINT},
+            create_time =  #{createTime,jdbcType=TIMESTAMP},
+            update_time =  #{updateTime,jdbcType=TIMESTAMP},
+            is_deleted =  #{isDeleted,jdbcType=TINYINT}
+        where   id = #{id,jdbcType=BIGINT} 
+    </update>
+</mapper>

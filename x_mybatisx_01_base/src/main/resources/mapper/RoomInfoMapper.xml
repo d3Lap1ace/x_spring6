@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.RoomInfoMapper">
+
+    <resultMap id="BaseResultMap" type="com.mybatis.pojo.RoomInfo">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="roomNumber" column="room_number" jdbcType="VARCHAR"/>
+            <result property="rent" column="rent" jdbcType="DECIMAL"/>
+            <result property="apartmentId" column="apartment_id" jdbcType="BIGINT"/>
+            <result property="isRelease" column="is_release" jdbcType="TINYINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+            <result property="isDeleted" column="is_deleted" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,room_number,rent,
+        apartment_id,is_release,create_time,
+        update_time,is_deleted
+    </sql>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from room_info
+        where  id = #{id,jdbcType=BIGINT} 
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete from room_info
+        where  id = #{id,jdbcType=BIGINT} 
+    </delete>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.mybatis.pojo.RoomInfo" useGeneratedKeys="true">
+        insert into room_info
+        ( id,room_number,rent
+        ,apartment_id,is_release,create_time
+        ,update_time,is_deleted)
+        values (#{id,jdbcType=BIGINT},#{roomNumber,jdbcType=VARCHAR},#{rent,jdbcType=DECIMAL}
+        ,#{apartmentId,jdbcType=BIGINT},#{isRelease,jdbcType=TINYINT},#{createTime,jdbcType=TIMESTAMP}
+        ,#{updateTime,jdbcType=TIMESTAMP},#{isDeleted,jdbcType=TINYINT})
+    </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.mybatis.pojo.RoomInfo" useGeneratedKeys="true">
+        insert into room_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+                <if test="id != null">id,</if>
+                <if test="roomNumber != null">room_number,</if>
+                <if test="rent != null">rent,</if>
+                <if test="apartmentId != null">apartment_id,</if>
+                <if test="isRelease != null">is_release,</if>
+                <if test="createTime != null">create_time,</if>
+                <if test="updateTime != null">update_time,</if>
+                <if test="isDeleted != null">is_deleted,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+                <if test="id != null">#{id,jdbcType=BIGINT},</if>
+                <if test="roomNumber != null">#{roomNumber,jdbcType=VARCHAR},</if>
+                <if test="rent != null">#{rent,jdbcType=DECIMAL},</if>
+                <if test="apartmentId != null">#{apartmentId,jdbcType=BIGINT},</if>
+                <if test="isRelease != null">#{isRelease,jdbcType=TINYINT},</if>
+                <if test="createTime != null">#{createTime,jdbcType=TIMESTAMP},</if>
+                <if test="updateTime != null">#{updateTime,jdbcType=TIMESTAMP},</if>
+                <if test="isDeleted != null">#{isDeleted,jdbcType=TINYINT},</if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.mybatis.pojo.RoomInfo">
+        update room_info
+        <set>
+                <if test="roomNumber != null">
+                    room_number = #{roomNumber,jdbcType=VARCHAR},
+                </if>
+                <if test="rent != null">
+                    rent = #{rent,jdbcType=DECIMAL},
+                </if>
+                <if test="apartmentId != null">
+                    apartment_id = #{apartmentId,jdbcType=BIGINT},
+                </if>
+                <if test="isRelease != null">
+                    is_release = #{isRelease,jdbcType=TINYINT},
+                </if>
+                <if test="createTime != null">
+                    create_time = #{createTime,jdbcType=TIMESTAMP},
+                </if>
+                <if test="updateTime != null">
+                    update_time = #{updateTime,jdbcType=TIMESTAMP},
+                </if>
+                <if test="isDeleted != null">
+                    is_deleted = #{isDeleted,jdbcType=TINYINT},
+                </if>
+        </set>
+        where   id = #{id,jdbcType=BIGINT} 
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.mybatis.pojo.RoomInfo">
+        update room_info
+        set 
+            room_number =  #{roomNumber,jdbcType=VARCHAR},
+            rent =  #{rent,jdbcType=DECIMAL},
+            apartment_id =  #{apartmentId,jdbcType=BIGINT},
+            is_release =  #{isRelease,jdbcType=TINYINT},
+            create_time =  #{createTime,jdbcType=TIMESTAMP},
+            update_time =  #{updateTime,jdbcType=TIMESTAMP},
+            is_deleted =  #{isDeleted,jdbcType=TINYINT}
+        where   id = #{id,jdbcType=BIGINT} 
+    </update>
+</mapper>
