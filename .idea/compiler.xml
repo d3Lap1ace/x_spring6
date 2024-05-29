@@ -29,7 +29,6 @@
         <module name="l_day08_springmvc_mybatis_01" />
         <module name="x_spring_01_ioc_xml" />
         <module name="x_springMvc_01_request" />
-        <module name="x_mybatisx_01_base" />
         <module name="l_day15_redis_bootredis" />
         <module name="l_day04_spring_aop_01" />
         <module name="l_day14_springboot_customstarter" />
@@ -51,6 +50,7 @@
         <module name="x_spring_03_aop_annotation" />
         <module name="l_day11_SSM_integration_01" />
         <module name="l_day02_spring_ioc_xml" />
+        <module name="mybatisx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -67,6 +67,7 @@
       <module name="spring-aop-annotation" target="17" />
       <module name="spring_first" target="17" />
       <module name="user_service" target="17" />
+      <module name="x_mybatisx_01_base" target="17" />
       <module name="x_spring_02_aop_xml" target="17" />
       <module name="x_spring_02_ioc_autowired" target="17" />
       <module name="x_spring_ioc_autowired" target="17" />
@@ -87,6 +88,7 @@
       <module name="l_day15_redis_jedis" options="-parameters" />
       <module name="l_day16_redis_luc" options="-parameters" />
       <module name="l_day16_redis_tx" options="-parameters" />
+      <module name="mybatisx" options="-parameters" />
       <module name="x_springboot_01" options="-parameters" />
     </option>
   </component>
