@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="version 0.9.1.4" />
+    <list default="true" id="5160389c-9ac0-4dd0-874f-74cd539e67f8" name="Changes" comment="mybatisX  version 0.9.1.5">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/java/com/mybatisx/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_mybatis_01_base/src/test/java/com/springmvc/mybatis/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/x_mybatis_01_base/src/test/java/com/springmvc/mybatis/MybatisTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +79,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6/mybatisx",
+    "last_opened_file_path": "F:/be_encode/javaEE/x_spring6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +88,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.13135593",
     "project.structure.side.proportion": "0.30494297",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "fileTemplates",
     "spring.configuration.checksum": "722b4ef50499af7e4c06ed62008726ce",
     "vue.rearranger.settings.migration": "true"
   },
@@ -123,7 +131,7 @@
       <recent name="com.mybatis.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.test_02">
+  <component name="RunManager" selected="JUnit.MybatisTest.test_05">
     <configuration name="Junit-test" type="JUnit" factoryName="JUnit">
       <module name="l_day02_spring_ioc_xml" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,22 +139,6 @@
       <option name="PACKAGE_NAME" value="com.javaEE.ioc3" />
       <option name="MAIN_CLASS_NAME" value="com.javaEE.ioc3.TestStudent" />
       <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.test_01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="x_mybatis_02_base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springmvc.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
-      <option name="METHOD_NAME" value="test_01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,8 +176,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest.test_03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="x_mybatis_01_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springmvc.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="test_03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisTest.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day09_mybatis_input" />
+      <module name="x_mybatis_01_base" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springmvc.mybatis.*" />
@@ -201,15 +209,15 @@
       </method>
     </configuration>
     <configuration name="MybatisTest.test_05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="l_day09_mybatis_homework" />
+      <module name="x_mybatis_01_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatisTest.*" />
+          <option name="PATTERN" value="com.springmvc.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybatisTest" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatisTest.MybatisTest" />
+      <option name="PACKAGE_NAME" value="com.springmvc.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.springmvc.mybatis.MybatisTest" />
       <option name="METHOD_NAME" value="test_05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -305,8 +313,8 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Junit-test" />
+      <item itemvalue="JUnit.MybatisTest.test_03" />
       <item itemvalue="JUnit.MybatisTest.test_01" />
-      <item itemvalue="JUnit.MybatisTest.test_01 (1)" />
       <item itemvalue="JUnit.MybatisTest.test_02" />
       <item itemvalue="JUnit.MybatisTest.test_04" />
       <item itemvalue="JUnit.MybatisTest.test_05" />
@@ -314,11 +322,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.test_02" />
-        <item itemvalue="JUnit.MybatisTest.test_01 (1)" />
-        <item itemvalue="JUnit.MybatisTest.test_01" />
         <item itemvalue="JUnit.MybatisTest.test_05" />
         <item itemvalue="JUnit.MybatisTest.test_04" />
+        <item itemvalue="JUnit.MybatisTest.test_03" />
+        <item itemvalue="JUnit.MybatisTest.test_01" />
+        <item itemvalue="JUnit.MybatisTest.test_02" />
       </list>
     </recent_temporary>
   </component>
@@ -415,6 +423,8 @@
       <workItem from="1716942526875" duration="667000" />
       <workItem from="1716988009209" duration="626000" />
       <workItem from="1716988639681" duration="799000" />
+      <workItem from="1717031819893" duration="1158000" />
+      <workItem from="1717039688007" duration="7856000" />
     </task>
     <task id="LOCAL-00001" summary="day01 maven">
       <created>1714990043900</created>
@@ -542,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716988845180</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mybatisX  version 0.9.1.5">
+      <created>1717032124162</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717032124162</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +606,8 @@
     <MESSAGE value="version 0.9.1.2" />
     <MESSAGE value="version 0.9.1.3" />
     <MESSAGE value="version 0.9.1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.9.1.4" />
+    <MESSAGE value="mybatisX  version 0.9.1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatisX  version 0.9.1.5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

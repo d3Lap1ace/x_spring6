@@ -5,13 +5,22 @@
 <mapper namespace="com.mybatisx.mapper.UserMapper">
 
     <insert id="insertUser">
-        insert into user(u_id,user_name,u_age,u_gender,u_hooby)
-        values(#{id},#{name},#{age},#{gender},#{hooby})
+        insert into user(u_name,u_age,u_gender,u_hooby)
+        values(#{uname},#{uage},#{ugender},#{uhooby})
     </insert>
+
+    <update id="updateUserByid">
+        update user set u_gender=#{ugender} where u_id=#{uid}
+    </update>
+    <delete id="deleteByid">
+        delete from user where u_id = #{uid}
+    </delete>
 
     <select id="queryById" resultType="user">
         select u_id ,u_name ,u_age ,u_gender ,u_hooby  from user where u_id =#{uid}
     </select>
-
+    <select id="queryHooby" resultType="com.mybatisx.pojo.User">
+        select u_hooby from user where u_id = #{uid}
+    </select>
 
 </mapper>

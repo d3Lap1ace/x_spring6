@@ -3,6 +3,7 @@ package com.mybatisx.mapper;
 import com.mybatisx.pojo.User;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @classname x_spring6
@@ -15,9 +16,13 @@ import java.util.List;
 
 
 public interface UserMapper {
-    List<User> queryScore();
+    User queryHooby(Integer id);
     User queryById(Integer id);
     int insertUser(User user);
-    int deleteUser(User user);
-    int updataUser(User user);
+    int deleteByid(Integer id);
+    int updateUserByid(Map<String,Object>paramMap);
+
+
+
+
 }

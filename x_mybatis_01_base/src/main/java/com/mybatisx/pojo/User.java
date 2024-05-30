@@ -15,9 +15,9 @@ import org.apache.ibatis.type.Alias;
 
 @Data
 public class User {
-    private Integer uId;
-    private String uName;
-    private Integer uAge;
-    private String uGender;
-    private String uHooby;
+    private Integer uid;
+    private String uname;
+    private Integer uage;
+    private String ugender;
+    private String uhooby;
 }
